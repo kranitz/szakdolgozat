@@ -1,0 +1,216 @@
+\documentclass[a4paper,12pt,oneside]{report}
+
+\usepackage{fancyhdr}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{todonotes}
+\usepackage[section,numbib,nottoc]{tocbibind}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{pdflscape}
+\usepackage{formai_kovetelmenyek}
+\usepackage{pdfpages}
+\usepackage{fixltx2e}
+\usepackage{tikz}
+\usepackage{floatrow}
+
+\usepackage{array} % for defining a new column type
+\usepackage{varwidth} %for the varwidth minipage environment
+
+
+\hypersetup{
+    pdfauthor={Kránitz Gábor},
+    pdftitle={Tűzfalak tesztelése hálózati forgalom visszajátszással}
+}
+
+\lstset{
+     basicstyle = \ttfamily\footnotesize
+    ,breaklines = true
+    ,prebreak   = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}}
+    ,extendedchars = true
+    ,literate={á}{{\'a}}1 {ó}{{\'o}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ő}{{\~o}}1 {ö}{{\"o}}1 {ű}{{\'u}}1
+}
+
+\hyphenation{Google}
+
+\title{Tűzfalak tesztelése hálózati forgalom visszajátszással}
+\author{Kránitz Gábor}
+\date{}
+
+%fattyú- és árvasorok büntetése, ha nagyobb, akkor jobban próbálja elkerülni
+\widowpenalty=400
+\clubpenalty=400
+
+\graphicspath{{./kepek/}}
+\setcounter{secnumdepth}{3} %szamozza a subsubsection-oket is
+\AtBeginDocument{\addtocontents{toc}{\protect\pagestyle{empty}}} %ezzel erem el, hogy a tartalomjegyzek ne kapjon oldalszamot
+\AtBeginDocument{\addtocontents{tod}{\protect\thispagestyle{empty}}}
+
+
+\lstset { %
+    language=C++,
+    backgroundcolor=\color{black!5}, % set backgroundcolor
+    basicstyle=\footnotesize,% basic font setting
+}
+
+
+\begin{document}
+\newcolumntype{M}{>{\begin{varwidth}{4cm}}l<{\end{varwidth}}} %M is for Maximal column
+
+\setcounter{chapter}{1}
+
+\pagestyle{empty}
+%------------------------------------------------------------------
+% külsõ kötéstábla
+{
+    \begin{center}
+    \vspace*{5cm}
+    {
+        \Huge SZAKDOLGOZAT}\\
+        \vspace*{10cm}
+        {\LARGE Kránitz Gábor}\\
+        \vspace*{3cm}
+        {\LARGE 2015}
+    \end{center}
+}
+\newpage
+
+% címoldal
+\begin{center}
+{
+    \Large Pannon Egyetem\\
+    Villamosmérnöki és Információs Rendszerek Tanszék\vspace*{3mm}\\
+    Programtervező Informatikus BSc szak
+}
+    \vspace*{2cm}\\
+    {\LARGE \bf SZAKDOLGOZAT}
+    \vspace{3cm}\\
+    {\LARGE\bf Tűzfalak tesztelése hálózati forgalom visszajátszással }
+    \vspace{3cm}\\
+    {\large Kránitz Gábor}
+    \vspace{6cm}
+    \\
+    {\large Témavezető: Dulai Tibor}\\
+    {\large Külső konzulens: Tollas Ferenc}
+    \vspace{1cm}\\
+    {\large 2014}
+\end{center}
+\normalsize
+% címlap vége
+\newpage
+
+Ide jön az eredeti vagy a fénymásolt feladatkiírás.
+\newpage
+
+\begin{center}
+\section*{Nyilatkozat}
+\end{center}
+
+Alulírott Kránitz Gábor diplomázó hallgató kijelentem, hogy a szakdolgozatot a Pannon Egyetem Villamosmérnöki és Információs Rendszerek tanszéken készítettem Programtervező informatikus BSc szak (BSc in Computer Science
+) megszerzése érdekében.
+
+Kijelentem, hogy a szakdolgozatban lévő érdemi rész saját munkám eredménye, az érdemi részen kívül csak a hivatkozott forrásokat (szakirodalom, eszközök, stb.) használtam fel.
+
+Tudomásul veszem, hogy a szakdolgozatban foglalt eredményeket a Pannon Egyetem, valamint a feladatot kiíró szervezeti egység saját céljaira szabadon felhasználhatja.\\
+
+\begin{flushleft}
+{Veszprém, 2015. december 02.\\}
+\end{flushleft}
+
+\begin{flushright}
+{Aláírás \vspace{4cm}}
+\end{flushright}
+
+Alulírott Dulai Tibor témavezető kijelentem, hogy a szakdolgozatot Kránitz Gábor a Pannon Egyetem Villamosmérnöki és Információs Rendszerek tanszéken készítette Programtervező informatikus BSc szak (BSc in Computer Science
+) megszerzése érdekében.
+
+Kijelentem, hogy a szakdolgozat védésre bocsátását engedélyezem.\\
+
+\begin{flushleft}
+{Veszprém, 2015. december 02.\\}
+\end{flushleft}
+
+\begin{flushright}
+{Aláírás}
+\end{flushright}
+%A tartalomjegyzék:
+\newpage
+\pagebreak
+\begin{center}
+\section*{Köszönetnyilvánítás}
+\end{center}
+
+Köszönöm a családomnak a sok türelmet és segítséget, amit kaptam, nélkülük ez a szakdolgozat nem készült volna el.
+\\
+\\
+Köszönöm témavezetőmnek, Dulai Tibornak az elmúlt egy év során adott iránymutatását.
+\\
+\\
+Végül, de nem utolsó sorban, szeretném megköszönni munkatársaimnak a sok segítséget, szaktársaimnak a bíztatást.
+
+\newpage
+
+\begin{center}
+\section*{\textbf{\Large \MakeUppercase{Tartalmi összefoglaló}}}
+\end{center}
+
+tartalmi osszefoglalo
+
+\vspace{2cm}
+
+{\bf Kulcsszavak:} {\it Zorp, TcpForwarder}
+\newpage
+
+\newpage
+
+\begin{center}
+\section*{\textbf{\Large \MakeUppercase{Abstract}}}
+\end{center}
+
+english sum
+
+\vspace{2cm}
+
+{\bf Keywords:} {\it Zorp, TcpForwarder}
+\newpage
+%--------------%------------------------------------------------------------------
+\pagenumbering{gobble} %ne legyen oldalszamozas a tartalomjegyzek oldalon
+%\listoftodos
+
+\renewcommand{\thefigure}{\arabic{figure}}
+
+
+\setcounter{tocdepth}{3} %subsubsection-ok is latszodjanak
+\thispagestyle{empty}
+\tableofcontents
+\pagebreak
+
+\pagenumbering{arabic} %legyen oldalszamozas
+\setcounter{page}{1} %innentől indul az oldalszámozás
+\pagestyle{plain}
+\fancyhead[C]{\rightmark}
+\fancyfoot[R]{\thepage}
+
+\section{A feladat összefoglalása}
+
+
+\subsection{Első lépések}
+
+
+\subsubsection{Képfeldolgozási képességek}
+\begin{itemize}
+	\itemsep0em
+	\item Képjavító eljárások, pl.: élesítés, kontrasztkiegyenlítés
+	\item Geometriai műveletek, pl.: átméretezés, forgatás, tükrözés
+	\item Analizálás, pl.: eltérések detektálása, alacsony szintű képleírók
+	\item Szerkesztési műveletek, pl.: logikai, szöveg, alakzatok elhelyezése
+	\item Színterek közötti konverzió, pl.: RGB $\rightarrow $ HSL, csatornák külön kezelése stb
+
+\end{itemize}
+
+\subsection{Választott szoftverek}
+
+\end{document}

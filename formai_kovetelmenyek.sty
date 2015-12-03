@@ -1,0 +1,51 @@
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage{listings}
+
+%\usepackage{arial} %arial font
+\usepackage{times} %times new roman font
+\usepackage{courier}
+\usepackage[top=3cm, bottom=3cm, left=4cm, right=3cm]{geometry}
+\usepackage{helvet} %arial font
+
+\frenchspacing
+%\doublespace
+\setstretch{1.45} %ez tesztnyomtatasok alapjan kicsi diffel a writer masfeles sortavjaval egyezik
+
+
+%
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\familydefault}{\rmdefault}
+%\renewcommand{\sfdefault}{helvet}
+%\renewcommand{\rmdefault}{times}
+\allsectionsfont{\sffamily\large} %14pt
+\subsectionfont{\sffamily\normalsize} %12pt
+\subsubsectionfont{\sffamily\normalsize} %12pt
+
+%\fancyhf{} %minden fej- es lablec ures
+%\rfoot{\thepage} %oldalszam a jobb also sarokba
+%\renewcommand{\headrulewidth}{0pt} %fejlec alatt ne legyen vonal
+%\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{0pt}
+
+%A FEJEZETEK KEZDÕOLDALAINAK FEJ ES LÁBLÉCE:
+%a plain oldalstílust kell átdefiniálni, hogy ott ne legyen fejléc:
+\fancypagestyle{plain}{
+    \fancyhf{}
+    % a láblécbe jobboldalra kerüljön az oldalszám:
+    \fancyfoot[R]{\thepage}
+    %elválasztó vonal sem kell:
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+%A TÖBBI OLDAL FEJ ÉS LÁBLÉCE:
+\pagestyle{fancy}{
+\fancyhf{}
+\fancyhead[C]{\rightmark}
+\fancyfoot[R]{\thepage}
+
+\renewcommand{\thesection}{\arabic{section}}
+
+
+
