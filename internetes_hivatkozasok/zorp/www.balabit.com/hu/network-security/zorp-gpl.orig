@@ -1,0 +1,956 @@
+
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Product">
+<head>
+    <title>Proxy Tűzfal - Zorp GPL</title>
+<meta charset="utf-8" />
+<meta name="description" content="A Zorp GPL™ alapfilozófiája, hogy egy adott protokollal kapcsolatos tudás a protokollhoz készített alacsony szintű proxyban van implementálva." />
+<meta name="distribution" content="local" />
+<meta name="keywords" content="" />
+<meta name="copyright" content="All rights reserved" />
+<meta name="generator" content="Eplos CMS 3.0" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://www.balabit.com/hu/network-security/zorp-gpl" />
+<meta itemprop="name" content="Proxy Tűzfal - Zorp GPL" />
+<meta itemprop="description" content="A Zorp GPL™ alapfilozófiája, hogy egy adott protokollal kapcsolatos tudás a protokollhoz készített alacsony szintű proxyban van implementálva." />
+<meta property="og:title" content="Proxy Tűzfal - Zorp GPL" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="publisher" href="https://plus.google.com/b/101716890711803057611/101716890711803057611/" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="stylesheet" href="/css/styles.min.css?20151014">
+<base href="/" />
+
+</head>
+<body>
+<header>
+    <nav class="top">
+        <section>
+    <div class="region-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="nav nav-tabs menu-dropdown-hover">
+                        <li class="hidden-xs">
+                            <a href="https://my.balabit.com">MyBalaBit</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://my.balabit.com/partnersonly">Partnersonly</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://my.balabit.com/hu/training">Tréningek</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://support.balabit.com" title="">BOSS</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://blogs.balabit.com" title="">Blogs</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://career.balabit.com/hu" title="">Karrier</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://www.balabit.com/" title="">Balabit.com</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="/hu/company/contacts" title="">Elérhetőségek</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <span>Nyelvek</span>
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="menu-dropdown">
+                                <li>
+                                    <a href="/network-security/zorp-gpl" lang="en"><span class="icon-lang icon-en"></span> English</a>
+                                </li>
+                                <li class="active">
+                                    <a href="/hu/network-security/zorp-gpl" class="active" lang="hu"><span class="icon-lang icon-hu"></span> Magyar</a>
+                                </li>
+                                <li>
+                                    <a lang="hu" class="inactive"><span class="icon-lang icon-de"></span> Deutsch</a>
+                                </li>
+                                <li>
+                                    <a lang="hu" class="inactive"><span class="icon-lang icon-fr"></span> Français</a>
+                                </li>
+                                <li class="last">
+                                    <a lang="hu" class="inactive"><span class="icon-lang icon-ru"></span> Русский</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="pull-right">
+                            <a id="search-link" href="javascript:void(0)" class="box-toggle" data-box-toggle="#search-box"><span class="icon-search"></span>&nbsp;Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="search-box">
+                <form action="/hu/search" method="post" id="search-block-form" accept-charset="UTF-8">
+                    <div class="col-sm-12">
+                        <div class="input-group v-margin-md">
+                            <input class="form-control" type="text" name="query" maxlength="128"
+                            title="A keresendő kifejezések megadása."
+                            />
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary btn-cta search-button" name="op" type="submit">
+                                <span class="icon-search"></span>
+                                Keresés
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </nav>
+    <nav class="mainmenu">
+        <div class="main-menu">
+    <div class="container">
+        <a href="/hu" id="balabit-logo"></a>
+        <button type="button" class="navbar-toggle pull-right collapsed v-margin-md" data-toggle-sibling="ul.nav-main-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        
+        <ul class="nav-main-menu nav-tabs pull-right menu-dropdown-hover">
+            <li>
+					<a href="javascript:void(0)" title="" class="nolink">
+						Termékek  <span class="caret caret-lg"></span>
+					</a>
+					<section class="submenu-text">
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                
+                    <td class="col-md-4 menu-item-lead" data-onclick-href="/hu/network-security/zorp-gateway">
+                        <div class="v-padding-sm">
+                            
+                            <a href="/hu/network-security/zorp-gateway">
+                                    <h4 class="title">
+                                    Zorp Gateway
+                                    </h4>
+                            </a>
+                            <p><img src="/pictures/zorp-226x99.png" alt="Zorp Gateway"></p>
+                            <p class="v-margin-md">Hálózati határvédelem</p>
+                            <div class="text-right">
+                                <a href="/hu/network-security/zorp-gateway" class="more-submenu">
+                                    Tovább
+                                &raquo;</a>
+                            </div>
+                        </div>
+                    </td>
+                <td class="col-md-8">
+                    <div class="v-margin-sm col-sm-6">
+                        
+                        <a class="col-sm-12" href="/hu/network-security/scb">
+                            <h4 class="title">Shell Control Box</h4>
+                            <p>Kiemelt jogosultságú felhasználók felügyelete</p>
+                        </a>
+                        <div class="col-sm-6">
+                            <ul class="gap-md general">
+                                <li>
+                                    <a href="/hu/network-security/scb">Áttekintés</a>
+                                </li>
+                                <li>
+                                    <a href="/hu/network-security/scb/features">Tulajdonságok</a>
+                                </li>
+                                <li>
+                                    <a href="/hu/network-security/scb/support">Támogatás</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="gap-md general">
+                                <li>
+                                    <a href="/hu/network-security/syslog-ng/central-syslog-server/download">Letöltés</a>
+                                </li>
+                                <li>
+                                    <a href="/hu/network-security/scb/application-area">Felhasználási terület</a>
+                                </li>
+                                <li>
+                                    <a href="/network-security/scb/callback">Kérjen visszahívást</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="v-margin-sm col-sm-6">
+                        
+                        <a class="col-sm-12" href="/hu/network-security/syslog-ng">
+                            <h4 class="title">syslog-ng</h4>
+                            <p>Naplómenedzsment infrastruktúra</p>
+                        </a>
+                        <div class="col-sm-12">
+                            
+                            <ul class="gap-md general">
+                                <li>
+                                    <a href="https://syslog-ng.org/" target="_blank">syslog-ng Open Source Edition</a>
+
+                                </li>
+                                <li>
+                                    <a href="/hu/network-security/syslog-ng/central-syslog-server" title="syslog-ng Premium Edition">syslog-ng Premium Edition</a>
+
+                                </li>
+                                <li>
+                                    <a href="/hu/network-security/syslog-ng/log-server-appliance" title="syslog-ng Store Box">syslog-ng Store Box</a>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</section>
+
+            </li>
+            <li>
+					<a href="javascript:void(0)" title="" class="nolink">
+						Megoldások  <span class="caret caret-lg"></span>
+					</a>
+					<section class="submenu-text">
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                    <td class="col-md-8">
+                        <div class="row">
+                            <div class="v-margin-sm col-sm-7">
+                                <div class="col-sm-12">
+                                    <p>
+                                        
+                                        A BalaBit a legtöbb iparág IT biztonsági és üzemeltetési kihívásaira egyedi megoldásokat kínál. Tekintse meg, hogy a különböző naplómenedzsment és tevékenység felügyeleti eszközök milyen segítséget nyújthatnak ezeken a területeken.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="v-margin-sm col-sm-5">
+                                <div class="col-sm-12">
+                                    
+                                    <ul class="gap-md general">
+                                        <li>
+                                            <a href="/solutions/industries">Iparágak</a>
+                                        </li>
+                                        <li>
+                                            <a href="/solutions/business">Üzleti szolgáltatások</a>
+                                        </li>
+                                        <li>
+                                            <a href="/solutions/case-studies">Esettanulmányok</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </td>
+                        <td class="col-md-4 menu-item-lead" data-onclick-href="/hu/downloads/white-papers">
+                            
+                            <div class="v-padding-sm">
+                                
+                                <a href="/hu/downloads/white-papers">
+                                        <h4 class="title">                                    
+                                        Prémium tanulmányok
+                                        </h4>
+                                </a>
+                                <p>
+                                    <img src="/pictures/pam_0_1-226x99.jpg" alt="Prémium tanulmányok">
+                                </p>
+                                <p class="v-margin-md">Töltse le és olvassa el legfrissebb tanulmányainkat.</p>
+                                <div class="text-right">
+                                    <a href="/hu/downloads/white-papers" class="more-submenu">
+                                        Tovább &raquo;
+                                    </a>
+                                </div>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+            <li>
+					<a href="javascript:void(0)" title="" class="nolink">
+						Támogatás  <span class="caret caret-lg"></span>
+					</a>
+					<section>
+    
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                    <td class="col-md-4 menu-item-lead">
+                        
+                        <div class="col-md-12">
+                            <div class="v-padding-sm" data-onclick-href="/hu/open-academy">
+                                <a href="/hu/open-academy">
+                                    <h4 class="title">
+                                    Open Academy Konferencia
+                                    </h4>
+                                </a>
+                                <p>
+                                    <img src="/pictures/oa2014-2-226x88.jpg" alt="Open Academy Konferencia">
+                                </p>
+                                <p class="v-margin-md">Legyen az elsők között aki regisztrál a IX. Open Academy-re melynek fő témája a szoftverfejlesztés lesz.</p>
+                                <div class="text-right">
+                                    <a href="/hu/open-academy" class="more-submenu">
+                                    Tovább
+                                    &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-8">
+                         
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/support/documentation">
+                                                <h4 class="title">Dokumentáció</h4>
+                                            <p>Böngésszen a dokumentációink széles választékában.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/support/packages">
+                                                <h4 class="title">Support csomagok</h4>
+                                            <p>Válassza ki az igényeinek leginkább megfelelő szolgáltatás csomagunkat.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="https://my.balabit.com/hu/training">
+                                                <h4 class="title">Tréningek</h4>
+                                            <p>Vegyen részt technikai tréningjeinken vagy végezze el e-learning kurzusainkat.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="http://communities.balabit.com/balabit?view=recent">
+                                                <h4 class="title">Közösség</h4>
+                                            <p>Kérjen segítséget más felhasználóktól, vegyen részt a termékeink fejlesztésében, küldje el észrevételeit.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+            <li>
+					<a href="javascript:void(0)" title="" class="nolink">
+						Partnerség  <span class="caret caret-lg"></span>
+					</a>
+					<section>
+    
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                    <td class="col-md-4 menu-item-lead">
+                        
+                        <div class="col-md-12">
+                            <div class="v-padding-sm" data-onclick-href="/hu/partnership/program">
+                                <a href="/hu/partnership/program">
+                                    <h4 class="title">
+                                    Partner program
+                                    </h4>
+                                </a>
+                                <p>
+                                    <img src="/pictures/offer-226x88-226x88.jpg" alt="Partner program">
+                                </p>
+                                <p class="v-margin-md">Tájékozódjon a BalaBit Partner Program előnyeiről.</p>
+                                <div class="text-right">
+                                    <a href="/hu/partnership/program" class="more-submenu">
+                                    Tovább
+                                    &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-8">
+                         
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/partnership/commercial">
+                                                <h4 class="title">Forgalmazók</h4>
+                                            <p>Válassza ki a megfelelő BalaBit viszonteladót.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/partnership/technology">
+                                                <h4 class="title">Technológiai partnereink</h4>
+                                            <p>Ismerje meg a BalaBit technológiai partnereit.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/partnership/program">
+                                                <h4 class="title">Partner program</h4>
+                                            <p>Tájékozódjon a BalaBit Partner Program előnyeiről.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+            <li>
+					<a href="javascript:void(0)" title="" class="nolink">
+						Vállalat  <span class="caret caret-lg"></span>
+					</a>
+					<section>
+    
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                    <td class="col-md-4 menu-item-lead">
+                        
+                        <div class="col-md-12">
+                            <div class="v-padding-sm" data-onclick-href="https://www.youtube.com/watch?v=CTteU6PVwsA">
+                                <a href="https://www.youtube.com/watch?v=CTteU6PVwsA">
+                                    <h4 class="title">
+                                    A BalaBitről
+                                    </h4>
+                                </a>
+                                <p>
+                                    <img src="/pictures/who-226x99-226x99.jpg" alt="A BalaBitről">
+                                </p>
+                                <p class="v-margin-md">Tekintse meg bemutatkozó videónkat.</p>
+                                <div class="text-right">
+                                    <a href="https://www.youtube.com/watch?v=CTteU6PVwsA" class="more-submenu">
+                                    Tovább
+                                    &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-8">
+                         
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/company/references">
+                                                <h4 class="title">Referenciák</h4>
+                                            <p>Vállalatok, akik a BalaBit termékeket választották.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/news/press">
+                                                <h4 class="title">Sajtószoba</h4>
+                                            <p>Hírek és vélemények a legfrissebb trendekről, technológiákról.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="https://career.balabit.com/hu">
+                                                <h4 class="title">Karrier</h4>
+                                            <p>Tekintse meg aktuális álláslehetőségeinket.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/company/contacts">
+                                                <h4 class="title">Elérhetőségek</h4>
+                                            <p>Kérdés esetén forduljon hozzánk bizalommal.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+            <li>
+					<a href="javascript:void(0)" title="" class="nolink">
+						Letöltés  <span class="caret caret-lg"></span>
+					</a>
+					<section>
+    
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                    <td class="col-md-4 menu-item-lead">
+                        
+                        <div class="col-md-12">
+                            <div class="v-padding-sm" data-onclick-href="/hu/open-academy">
+                                <a href="/hu/open-academy">
+                                    <h4 class="title">
+                                    Open Academy Konferencia
+                                    </h4>
+                                </a>
+                                <p>
+                                    <img src="/pictures/oa2014-2-226x88.jpg" alt="Open Academy Konferencia">
+                                </p>
+                                <p class="v-margin-md">Legyen az elsők között aki regisztrál a IX. Open Academy-re melynek fő témája a szoftverfejlesztés lesz.</p>
+                                <div class="text-right">
+                                    <a href="/hu/open-academy" class="more-submenu">
+                                    Tovább
+                                    &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-8">
+                         
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/downloads/evaluation">
+                                                <h4 class="title">Próbaverziók</h4>
+                                            <p>Szerezzen közvetlen tapasztalatot. Töltse le és próbálja ki a BalaBit megoldásait ingyen.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/downloads/upgrades">
+                                                <h4 class="title">Javítások és frissítések</h4>
+                                            <p>Töltse le a legújabb verziókat.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/hu/support/community/products">
+                                                <h4 class="title">Nyílt forráskódú termékeink</h4>
+                                            <p>A BalaBit által fejlesztett ingyenes termékeket találja a következő oldalon.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="https://my.balabit.com/downloads">
+                                                <h4 class="title">Minden fájl</h4>
+                                            <p>Használja a fájl keresőt, hogy megtalálja a szükséges telepítő csomagokat.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+
+        </ul>
+    </div>
+</div>    </nav>
+</header>
+<!-- start content -->
+<div class="container">
+    <section>
+    <div class="row">
+        
+        
+        <ul class="nav nav-tabs col-md-12 content-tab">
+                <li class="active">
+                    <a href="/hu/network-security/zorp-gpl">Összefoglalás</a>
+                </li>
+                <li>
+                    <a href="/hu/network-security/zorp-gpl/download">Letöltés</a>
+                </li>
+                <li>
+                    <a href="/hu/network-security/zorp-gpl/support">Támogatás</a>
+                </li>
+
+        </ul>
+    </div>
+</section>
+
+    <div class="v-margin-lg">
+        <h1 class="title">
+            
+            Zorp GPL™
+        </h1>
+        
+        <div class="row v-padding-md">
+<div class="col-md-12">
+<p>A Zorp GPL™ alapfilozófiája, hogy egy adott protokollal kapcsolatos tudás a protokollhoz készített alacsony szintű proxyban van implementálva. Ezeket az alacsony szintű proxykat viszont a tűzfal adminisztrátora szabadon építheti össze bonyolult protokollok szűrésére. Az összekötő elem, egyben a tűzfal konfigurációs nyelve Python, ami lehetővé teszi hogy az adminisztrátor tetszőleges feltételek alapján döntsön a forgalom szűréséröl. A döntést segíti, hogy a proxyk minden protokollinformációt eljuttatnak a döntési mechanizmus részére. Ha egy adott protokoll szűrésére még nincsen alacsony szintű proxy, az adminisztrátornak lehetösége van akár arra, hogy egy általános célú proxy segítségével valamilyen szinten kordában tartsa a forgalmat, akár arra, hogy Python nyelven lekezelje az adott protokollt (sőt mindkettőt teheti egyszerre). Ezzel egy a mai kor követelményeinek megfelelő, újgenerációs tűzfalat kapunk.</p>
+<h2>Tulajdonságok</h2>
+<ul class="gap-md">
+<li>Pyhton konfigurációs szkriptnyelv, tökéletes finomhangolhatóság</li>
+<li>Támogatott protokollok
+<ul class="gap-md">
+<li>HTTP/1.1</li>
+<li>FTP</li>
+<li>SSL</li>
+<li>SMTP</li>
+<li>POP3</li>
+<li>finger</li>
+<li>plug</li>
+<li>whois</li>
+<li>telnet</li>
+</ul>
+</li>
+<li>Moduláris alkalmazásszintű átjárók</li>
+<li>Beágyazott protokollok elemzése (pl. HTTP SSL-ben)</li>
+<li>Csomagszűrő szabályok dinamikus változtatása</li>
+<li>Lehetőség saját proxy modull készítésére (Python-ban), ha natív nem elérhető</li>
+</ul>
+</div>
+</div>
+    </div>
+</div>
+<!-- end content -->
+<div class="footer-banner">
+    <section>
+    <div class="footer-banner">
+        <div class="container">
+            <div class="col-sm-3 col-md-2 hidden-xs">
+                <img alt="" src="/pictures/girl-154x131.png" class="pull-left"/>
+            </div>
+            <div class="col-sm-6 col-md-8">
+                
+                <div class="sticky-foot-text">
+                    <h3>
+                        BalaBit eCSI Magazine May issue has been published
+                    </h3>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-2">
+                <a class="btn btn-primary btn-cta" href="https://pages.balabit.com/eCSI-magazine-201505.html" target="blank" title="">
+                    Download now
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<footer>
+    <section id="sitemap">
+    <div class="sitemap footer">
+        <div class="container">
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                
+                
+                <a href="javascript:void(0)">Termékek</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/network-security/blindspotter" title="">
+        Blindspotter
+    </a>
+</li>
+
+                    <li>
+    <a href="/hu/network-security/scb" title="">
+        Shell Control Box
+    </a>
+</li>
+
+                    <li>
+    <a href="/hu/network-security/syslog-ng" title="">
+        syslog-ng
+    </a>
+</li>
+
+                    <li>
+    <a href="/hu/network-security/zorp-gateway" title="">
+        Zorp Gateway
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                    
+                    
+                    <a href="javascript:void(0)">Megoldások</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+        <a href="/solutions/industries" title="">
+        Iparágak
+    </a>
+</li>
+
+                    <li>
+        <a href="/solutions/business" title="">
+        Üzleti szolgáltatások
+    </a>
+</li>
+
+                    <li>
+        <a href="/solutions/case-studies" title="">
+        Esettanulmányok
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                    
+                    
+                    <a href="javascript:void(0)">Támogatás</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/hu/support/documentation" title="">
+        Dokumentáció
+    </a>
+</li>
+
+                    <li>
+    <a href="/hu/support/packages" title="">
+        Support csomagok
+    </a>
+</li>
+
+                    <li>
+    <a href="https://my.balabit.com/hu/training" target="_blank" title="">
+        Tréningek
+    </a>
+</li>
+
+                    <li>
+    <a href="http://communities.balabit.com/balabit?view=recent" target="_blank" title="">
+        Közösség
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                    
+                    
+                    <a href="javascript:void(0)">Partnerség</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/hu/partnership/commercial" title="">
+        Kereskedelmi partnereink
+    </a>
+</li>
+
+                    <li>
+    <a href="/hu/partnership/technology" title="">
+        Technológiai partnereink
+    </a>
+</li>
+
+                    <li>
+    <a href="/hu/partnership/program" target="_blank" title="">
+        Partner program
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                    
+                    
+                    <a href="javascript:void(0)">Letöltések</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/hu/downloads/upgrades" title="">
+        Javítások és frissítések
+    </a>
+</li>
+
+                    <li>
+    <a href="/hu/downloads/evaluation" title="">
+        Próbaverziók
+    </a>
+</li>
+
+                    <li>
+    <a href="/hu/support/community/products" title="">
+        Nyílt forráskódú termékeink
+    </a>
+</li>
+
+                    <li>
+    <a href="https://my.balabit.com/downloads" target="_blank" title="">
+        Minden fájl
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                    
+                    
+                    <a href="javascript:void(0)">Vállalat</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/hu/company/references" title="">
+        Referenciák
+    </a>
+</li>
+
+                    <li>
+    <a href="/hu/news/press" title="">
+        Sajtószoba
+    </a>
+</li>
+
+                    <li>
+    <a href="https://career.balabit.com/hu" target="_blank" title="">
+        Karrier
+    </a>
+</li>
+
+                    <li>
+    <a href="/hu/company/contacts" title="">
+        Elérhetőségek
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="social-links">
+    <div class="footer v-padding-md">
+        <div class="container">
+            <div class="col-md-6">
+                <h4 id="ezine">Subscribe to eCSI eZine</h4>
+<form id="mktoForm_1044">
+</form>
+
+            </div>
+            <div class="col-md-6">
+                <a class="pull-right" href="mailto:?subject=Site%20Recommendation&amp;body=Hello,%20%0A%0a%20Visit%20this%20site:%20https://www.balabit.com/lp/ecsi-training-camp-basics">
+                    <span class="icon-social icon-social-email" title="Recommend our site"></span>
+                </a>
+                <a class="pull-right" href="https://twitter.com/balabit">
+                    <span class="icon-social icon-social-twitter" title="Balabit Twitter account"></span>
+                </a>
+                <a class="pull-right" href="https://www.facebook.com/balabit">
+                    <span class="icon-social icon-social-facebook" title="Balbit Facebook page"></span>
+                </a>
+                <a class="pull-right" href="http://www.youtube.com/user/BalaBitIT">
+                    <span class="icon-social icon-social-youtube" title="Balabit YouTube channel"></span>
+                </a>
+                <a class="pull-right" href="http://www.slideshare.net/balabit">
+                    <span class="icon-social icon-social-slideshare" title="Balabit Slideshare"></span>
+                </a>
+                <a class="pull-right" href="https://www.linkedin.com/company/balabit-it-security">
+                    <span class="icon-social icon-social-linkedin" title="BalaBit LinkedIn profile"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="footer-copyright">
+    <div class="footer-copyright v-padding-sm">
+        <div class="container">
+            <div class="col-sm-6">
+                
+                <ul>
+                    <li>
+                        <a href="/hu/privacy-policy" title="">
+                        Adatvédelmi nyilatkozat
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/hu/trademarks" title="">
+                        Márkanevek
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/hu/company/contacts" title="">
+                        Elérhetőségek
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-sm-6 text-right">
+                <p>Copyright 2000-2015 BalaBit IT Security. All rights reserved.</p>
+            </div>
+            <!-- <script type="text/javascript" src="https://www.balabit.com/js/scripts-combined.min.js"></script> -->
+            <script type="text/javascript" src="/js/scripts-combined.min.js"></script>
+            
+                    <!-- General scripts begin -->
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-3350024-1', 'auto', {
+    'cookieDomain': '.balabit.com',
+    'legacyCookieDomain': '.balabit.com',
+    'allowLinker': true,
+    'allowAnchor': true
+});
+ga('require', 'displayfeatures'); // needed for remarketing
+ga('send', 'pageview');
+
+
+ga('create', 'UA-3350024-44', {'name':'rollupProperty','allowLinker': true});
+ga('rollupProperty.require', 'linker'); 
+ga('rollupProperty.linker:autoLink', ['syslog-ng.org', 'balabit.com'],true,true );
+ga('rollupProperty.send', 'pageview');
+</script>
+<!-- Google Analytics, document download measurement -->
+<script type="text/javascript">
+ jQuery(document).ready(function($) {var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i; var baseHref = ''; if (jQuery('base').attr('href') != undefined) baseHref = jQuery('base').attr('href'); jQuery('a').each(function() {var href = jQuery(this).attr('href'); if (href && (href.match(/^htt[p][s]?\:/i)) && (!href.match(document.domain))) {jQuery(this).click(function() {var extLink = href.replace(/^htt[p][s]?\:\/{2}/i, ''); ga('send', 'event', 'External', 'Click', extLink); }); } else if (href && href.match(/^mailto\:/i)) {jQuery(this).click(function() {var mailLink = href.replace(/^mailto\:/i, ''); ga('send', 'event', 'Email', 'Click', mailLink); }); } else if (href && href.match(filetypes)) {jQuery(this).click(function() {var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined; var filePath = href; ga('send', 'event', 'Download', 'Click-' + extension, filePath); }); } }); });
+</script>
+<!--<section>
+<div id="getsat-widget-6049"></div>
+<script type="text/javascript">function gsfnlabel() {jQuery.loadAsync = function(url, callback) {jQuery.ajax({'url': url,'dataType': 'script','cache': true,'success': callback || jQuery.noop});}; function insertScript(){if (typeof GSFN !== "undefined") { GSFN.loadWidget(6049,{"containerId":"getsat-widget-6049"}); }} jQuery.loadAsync( "//loader.engage.gsfn.us/loader.js",insertScript ); } setTimeout("gsfnlabel()",100);</script>
+</section>-->
+<!-- Facebook Remarketing Tag -->
+<script>(function() {var _fbq = window._fbq || (window._fbq = []); if (!_fbq.loaded) {var fbds = document.createElement('script'); fbds.async = true; fbds.src = '//connect.facebook.net/en_US/fbds.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fbds, s); _fbq.loaded = true; } _fbq.push(['addPixelId', '1561720987393521']); })(); window._fbq = window._fbq || []; window._fbq.push(['track', 'PixelInitialized', {}]);</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1561720987393521&amp;ev=PixelInitialized" /></noscript>
+<!-- Google Code for Remarketing Tag -->
+<script type="text/javascript">
+/* <![CDATA[ */
+function initGoogleTrackConversion() {window.google_trackConversion({ google_conversion_id: 991855140, google_custom_params: window.google_tag_params, google_remarketing_only: true});}
+//]]>
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8" async onload="initGoogleTrackConversion()"></script>
+<!--<script type="text/javascript" async src="//www.googleadservices.com/pagead/conversion.js"></script>-->
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/991855140/?value=0&amp;guid=ON&amp;script=0" /></div>
+</noscript>
+<!-- Marketo  tracker -->
+<script type="text/javascript">jQuery(document).ready(function() {jQuery.ajax({url: '//munchkin.marketo.net/munchkin.js', dataType: 'script', cache: true, success: function() {Munchkin.init('855-UZV-853'); } }); setTimeout(function(){jQuery.loadAsync = function(url, callback) {jQuery.ajax({'url': url,'dataType': 'script','cache': true,'success': callback || jQuery.noop} ); }; function insertScript(){setTimeout(function() { MktoForms2.loadForm("//app-lon02.marketo.com", "855-UZV-853", 1044, insertFinished); } ,200); } function insertFinished() {jQuery('.mktoForm button.mktoButton').addClass('btn btn-primary'); } jQuery.loadAsync( "//app-lon02.marketo.com/js/forms2/js/forms2.min.js",insertScript ); },200); });</script>
+<!-- General scripts end -->
+        </div>
+    </div>
+</section></footer>
+</body>
+</html>

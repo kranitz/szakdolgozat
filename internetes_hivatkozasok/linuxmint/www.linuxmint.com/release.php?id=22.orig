@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Editions for Linux Mint 17 "Qiana" - Linux Mint</title>
+
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="robots" content="all" />
+
+<meta name="viewport" content="width=1024" />
+
+<meta name="description" content="Linux Mint is an elegant, easy to use, up to date and comfortable GNU/Linux desktop distribution." />
+<meta name="keywords" content="Linux Mint, Free Operating system, FOSS, Linux, easy to use" />
+<meta name="maintainer" content="Clement Lefebvre" />
+<meta name="author" content="Carlos Porto of Design Drifter" />
+
+<meta name="MSSmartTagsPreventParsing" content="true" /> 
+
+<link rel="icon" type="image/png" href="http://www.linuxmint.com/favicon.ico" />
+
+<link href="http://www.linuxmint.com/css/minty.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://www.linuxmint.com/css/lytebox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://www.linuxmint.com/css/style.css" type="text/css" media="screen" />
+<!--[if lte IE 6]>
+<link href="http://www.linuxmint.com/css/minty-ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<script type="text/javascript" src="http://www.linuxmint.com/js/jstarget.js"></script>
+</head>
+
+<body class="Download" id="22">
+
+<div id="container">
+	<div id="wrapper">
+  <div id="heading">
+    <div id="branding"> <a href="http://www.linuxmint.com/" title="Linux Mint" class="ir"></a><a href="http://www.linuxmint.com/" title="Linux Mint">Linux Mint</a> </div>
+    <div id="nav">
+      <p class="access"><a accesskey="s" href="#content">Skip Navigation</a></p>
+			<ul id="nav-section">
+				<li class="off"><a href="http://www.linuxmint.com/index.php">Home</a></li>
+				
+				<!-- <li class="off"><a href="http://community.linuxmint.com">Community</a>
+					<ul>
+						<li><a href="http://community.linuxmint.com">Community Website</a></li>
+						<li><a href="http://forums.linuxmint.com">Forums</a></li>
+						<li><a href="http://blog.linuxmint.com">Blog</a></li>
+						<li><a href="http://www.linuxmint-art.org/">Artwork</a></li>
+						<li><a href="http://mintcast.org/">Podcast</a></li>
+						<li ><a href="http://www.linuxmint.com/communities.php">Local Communities</a></li>
+					</ul>
+				</li> -->
+				<li class="on"><a href="http://www.linuxmint.com/download.php">Download</a>
+					<ul>
+						<li ><a href="http://www.linuxmint.com/download.php">Linux Mint 17.3</a></li>
+						<li ><a href="http://www.linuxmint.com/download_lmde.php">LMDE 2</a></li>
+						<!--<li ><a href="http://www.linuxmint.com/download_ce.php">Community editions</a></li> -->
+						<li ><a href="http://www.linuxmint.com/download_all.php">All versions</a></li>
+                        <li ><a href="http://www.linuxmint.com/documentation.php">Documentation</a></li>
+						<li><a href="http://www.osdisc.com/cgi-bin/view.cgi/products/linux/linuxmint?affiliate=linuxmint">Buy CDs</a></li>
+					</ul>
+				</li>
+				<!-- <li class="off"><a href="http://community.linuxmint.com">Services</a>
+					<ul>
+						<li ><a href="http://community.linuxmint.com/software">Software Portal</a></li>
+						<li ><a href="http://community.linuxmint.com/hardware">Hardware Database</a></li>
+						<li ><a href="http://community.linuxmint.com/tutorial">Tutorials</a></li>
+						<li ><a href="http://community.linuxmint.com/idea">Ideas pool</a></li>
+					</ul>
+				</li> -->
+				<li class="off"><a href="http://www.linuxmint.com/getinvolved.php">Project</a>
+					<ul>
+						<li ><a href="http://www.linuxmint.com/getinvolved.php">Get involved</a></li>
+						<li ><a href="http://www.linuxmint.com/donors.php">Donors</a></li>
+						<li ><a href="http://www.linuxmint.com/sponsors.php">Sponsors</a></li>
+						<li ><a href="http://www.linuxmint.com/partners.php">Partners</a></li>
+						<li ><a href="http://www.linuxmint.com/store.php">Store</a></li>
+						<li ><a href="http://www.linuxmint.com/mirrors.php">Mirrors</a></li>
+						<li ><a href="http://www.linuxmint.com/contactus.php">Contact Us</a></li>
+					</ul>
+				</li>
+				<li class="off"><a href="http://www.linuxmint.com/about.php">About</a>
+					<ul>
+						<li ><a href="http://www.linuxmint.com/about.php">About Linux Mint</a></li>
+						<li ><a href="http://www.linuxmint.com/screenshots.php">Screenshots</a></li>
+						<li ><a href="http://www.linuxmint.com/faq.php">FAQ</a></li>
+						<li ><a href="http://www.linuxmint.com/teams.php">Teams</a></li>
+						<!-- <li ><a href="http://www.linuxmint.com/reviews.php">Reviews & interviews</a></li> -->
+					</ul>
+				</li>
+				<li class="off"><a href="http://www.linuxmint.com/links.php">Links</a></li>
+			</ul>
+
+    </div>
+	</div><!-- End heading-->
+  
+
+<div id="content">
+
+<div id="content-article">
+
+    <!--[if lte IE 6]>
+		<div id="ie">
+		<h2>Oh dear, no wonder things don't look so great...</h2>
+		<p>You're using an out-of-date version of Internet Explorer. It's time to update to a better browser such as <a href="http://www.microsoft.com/windows/products/winfamily/ie/">Explorer 7</a>, <a href="http://www.mozilla.com/">Firefox</a> or <a href="http://www.opera.com/">Opera</a>.</p>
+		</div>
+	<![endif]-->
+
+
+
+
+	<h1>Editions for Linux Mint 17 "Qiana"</h1>
+	
+	<div class="article">
+
+
+	<table class="sponsor-table">
+    	<TR>	
+		<TH>
+		  Edition
+		</TH>
+		<TH>
+		  Desktop
+		</TH>	
+		<TH>
+		  Media
+		</TH>								
+    	</TR>
+    	
+    	    		<tr class="alt">
+    		<TD><a href="edition.php?id=157">Cinnamon (32-bit)</a></TD>
+    		<TD>Cinnamon</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr >
+    		<TD><a href="edition.php?id=158">Cinnamon (64-bit)</a></TD>
+    		<TD>Cinnamon</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr class="alt">
+    		<TD><a href="edition.php?id=161">Cinnamon no-codecs (32-bit)</a></TD>
+    		<TD>Cinnamon</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr >
+    		<TD><a href="edition.php?id=162">Cinnamon no-codecs (64-bit)</a></TD>
+    		<TD>Cinnamon</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr class="alt">
+    		<TD><a href="edition.php?id=163">Cinnamon OEM (64-bit)</a></TD>
+    		<TD>Cinnamon</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr >
+    		<TD><a href="edition.php?id=167">KDE (32-bit)</a></TD>
+    		<TD>KDE</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr class="alt">
+    		<TD><a href="edition.php?id=168">KDE (64-bit)</a></TD>
+    		<TD>KDE</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr >
+    		<TD><a href="edition.php?id=159">MATE (32-bit)</a></TD>
+    		<TD>MATE</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr class="alt">
+    		<TD><a href="edition.php?id=160">MATE (64-bit)</a></TD>
+    		<TD>MATE</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr >
+    		<TD><a href="edition.php?id=164">MATE no-codecs (32-bit)</a></TD>
+    		<TD>MATE</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr class="alt">
+    		<TD><a href="edition.php?id=165">MATE no-codecs (64-bit)</a></TD>
+    		<TD>MATE</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr >
+    		<TD><a href="edition.php?id=166">MATE OEM (64-bit)</a></TD>
+    		<TD>MATE</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr class="alt">
+    		<TD><a href="edition.php?id=169">Xfce (32-bit)</a></TD>
+    		<TD>Xfce</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    		<tr >
+    		<TD><a href="edition.php?id=170">Xfce (64-bit)</a></TD>
+    		<TD>Xfce</TD>
+    		<TD>DVD</TD>    		
+    		</TR>
+  
+    	    	
+    	</table>
+	<br><br>
+    	
+    
+   
+</div>
+
+
+
+
+</div><!-- end article-->
+
+</div><!-- end content -->
+
+  <div id="quickmenu">
+    <ul id="buttons">
+      <li id="btn-donate"><a href="/donors.php">Donate</a></li>
+      <li id="btn-forum"><a href="/getinvolved.php">Participate</a></li>
+      <li id="btn-download"><a href="/download.php">Download</a></li>
+    </ul>
+  </div>
+
+<form method="get" action="search.php">
+  <div id="sidebar">
+		<!-- <input type="hidden" name="search" value="1" />	
+		<input name="query" id="search" alt="Search" value="" type="text" />
+		<input id="btn-search" src="img/btn-search.png" alt="Search" type="image" /> -->
+
+		<h3>Follow us</h3>
+	
+		<a href="http://blog.linuxmint.com/?feed=rss2" title="RSS feed"><img src="/img/feed.png" alt="RSS Feed"></a>
+		<a href="http://www.facebook.com/pages/Linux-Mint/185238108180410" title="Facebook"><img src="/img/facebook.png" alt="Facebook"></a>
+		<a href="http://twitter.com/linux_mint" title="Twitter"><img src="/img/twitter.png" alt="Twitter"></a>
+		
+		<h3>Sponsors</h3>
+		<ul class="sponsors">	
+
+ 		  	
+  			<li><a rel="external" href="https://www.privateinternetaccess.com"><img src="http://linuxmint.com/img/sponsor/logos/606.png" alt="Private Internet Access" title="Private Internet Access" /></a></li>			<li><a rel="external" href="https://www.eukhost.com/vps-hosting/linux.php"><img src="http://linuxmint.com/img/sponsor/logos/216.gif" alt="Linux VPS Hosting" title="Linux VPS Hosting" /></a></li>				
+			<li><a rel="external" href="http://linuxmint.thinkpenguin.com/"><img src="http://linuxmint.com/img/sponsor/logos/431.jpg" alt="ThinkPenguin.com" title="ThinkPenguin.com" /></a></li>				
+  	
+			
+		</ul>
+
+		
+
+		<h3>Advertisements</h3>
+
+		<ul class="ads">
+				<li><a href="http://www.linuxmint.com/download.php"><img src="/img/ads/download.png" alt="Download Linux Mint" /></a></li>
+
+
+
+
+			<li>
+            
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3911921815512938";
+/* Website Right Wide Skyscraper */
+google_ad_slot = "1081472226";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+  
+
+            <br/>
+
+      		</li>
+		</ul>
+  </div>
+	</form>
+
+  <div id="siteinfo-legal">
+    <p class="copyright">Linux Mint is free of charge (thanks to your donations and adverts on the website) and we hope you'll enjoy it.</p>
+    <p>Some of the packages we distribute are under the GPL. If you
+      want to access their source code you can use the apt-get source command. If you can't find what you're looking for please write to &#x72;&#000111;&#x6f;&#000116;&#64;&#x6c;&#105;&#110;&#x75;&#x78;&#109;&#x69;&#x6e;&#116;&#x2e;&#x63;&#x6f;&#000109; and we'll provide the source to you.</p>
+    <p>Linux Mint is copyrighted 2006 and trademarked through the Linux Mark Institute. All rights reserved. Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.</p>
+  </div>
+	
+<!--End Wrapper--></div>
+</div><!--End Container-->
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26948453-1']);
+  _gaq.push(['_setDomainName', 'linuxmint.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

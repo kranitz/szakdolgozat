@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon; charset=binary">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon; charset=binary">
+    <link rel="stylesheet" type="text/css" href="/styles/design3.f846dec4.css" media="all">
+    <link rel="pingback" href="http://www.yworks.com/pingback">
+    <link href="/newsfeed" type="application/atom+xml" rel="alternate" title="yWorks News">
+    <meta name="author" content="yWorks, the diagramming company">
+    <meta name="audience" content="all">
+    <meta name="classification" content="software">
+    <meta name="copyright" content="Copyright &amp;copy; 2000-2015 yWorks. All Rights Reserved.">
+    <meta name="distribution" content="global">
+    <meta name="page-topic" content="yWorks home page">
+    <meta name="page-type" content="eCommerce, self-promotion">
+    <meta name="publisher" content="yWorks, http://www.yWorks.com">
+    <meta name="rating" content="Safe For Kids">
+    <meta name="description" content="High-quality software components for graph analysis, automatic graph layout, and visualization.">
+    <meta name="keywords" content="library,toolkit,framework,diagramming,layout,analysis,visualization,diagram,chart,graph,software,algorithms,algorithm,yWorks,yFiles,yED">
+    <script type="text/javascript">
+      ASSET_BASE_URL = "http://cdn.yworks.com/";
+      PHP_BASE_URL = "/actions/";
+      PHP_URL_SUFFIX = "";
+    </script>
+    <script src="/scripts/head.b95aba19.js"></script>
+    <title>yEd - Graph Editor</title>
+  </head>
+  <body>
+    <noscript>
+      <style type="text/css">
+        div.head-wrapper {
+          padding-top: 30px;
+        }
+      </style>
+      <div class="browser-info-bar"><img src="/assets/images/warning.71a01d1b.png" class="browser-info-icon"><span class="browser-info-text">Please enable JavaScript in your browser settings to use this website. Thank you!</span></div>
+    </noscript>
+    <!--if lte IE 8
+    .browser-info-bar
+      img.browser-info-icon(src='fileadmin/templates/default/public/images/warning.png')
+      span.browser-info-text
+        | Please note that this website does not run in old browsers. We recommend to upgrade to a more recent version.
+    
+    -->
+    <div class="full-size head-wrapper">
+      <div class="wrap">
+        <header>
+          <div class="logo-wrapper"><a href="/" class="logo"><img src="/assets/images/logo.72a5be6c.svg" alt="yWorks Logo" class="header-logo"><img src="/assets/images/logo-small-header.6a83a3b3.svg" alt="yWorks Logo" class="header-logo-small"></a></div>
+          <nav role="navigation" class="navbar">
+            <div class="navbar-header">
+              <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <!-- div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"-->
+            <ul class="nav navbar-nav dropdown-accordion">
+              <li class="has-drop-down"><a href="/products" class="has-drop-down-a">Products</a>
+                <!-- dropdown-->
+                <div class="dropdown">
+                  <div class="file-block"><strong class="title"><a href="/products/yfiles">yFiles</a></strong>
+                    <ul>
+                      <!-- li><a href="en/products.html">All yFiles diagramming libraries</a></li-->
+                      <li><a href="/products/yfiles">The product family</a></li>
+                      <li class="has-drop-down active"><span>Diagramming in the browser</span>
+                        <ul>
+                          <li><a href="/products/yfiles-for-html">yFiles for HTML</a></li>
+                          <li><a href="/products/yfiles/web">Web solutions overview</a></li>
+                        </ul>
+                      </li>
+                      <li class="has-drop-down active"><span>Diagramming on the .NET platform</span>
+                        <ul>
+                          <li><a href="/products/yfiles-net">yFiles.NET</a></li>
+                          <li><a href="/products/yfiles-wpf">yFiles WPF</a></li>
+                        </ul>
+                      </li>
+                      <li class="has-drop-down active"><span>Cross-platform diagramming</span>
+                        <ul>
+                          <li><a href="/products/yfiles-for-java-2.x">yFiles for Java</a></li>
+                          <li><a href="/products/yfiles-for-java">yFiles for Java 3.0 [Preview]</a></li>
+                          <li><a href="/products/yfiles-for-javafx">yFiles for JavaFX</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li><a href="/products/yfiles/gallery">Gallery</a></li>
+                      <li><a href="/products/yfiles/demos">Live demos</a></li>
+                      <li><a href="/products/yfiles/documentation">Documentation</a></li>
+                    </ul>
+                  </div>
+                  <div class="file-block tool"><strong class="title"><a href="/tools">Tools and Applications</a></strong>
+                    <ul>
+                      <li><a href="/products/yed">yEd</a></li>
+                      <li><a href="/products/diagrams-for-confluence">Diagrams for Confluence</a></li>
+                      <li><a href="/products/yguard">yGuard</a></li>
+                      <li><a href="/products/ydoc">UML Doclet</a></li>
+                      <li><a href="/tools">Tools overview</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="has-drop-down"><a href="/support" class="has-drop-down-a">Support</a>
+                <!-- dropdown-->
+                <div class="dropdown">
+                  <div class="file-block"><strong class="title">yFiles</strong>
+                    <ul>
+                      <li><a href="http://kb.yworks.com">Knowledge Base</a></li>
+                      <li><a href="/products/yfiles/documentation">Documentation</a></li>
+                      <li><a href="/support">Support request</a></li>
+                      <li><a href="/services#Consulting">Consulting services</a></li>
+                      <!-- li><a href="en/#" style="color:red">Sales</a></li-->
+                    </ul>
+                  </div>
+                  <div class="file-block tool"><strong class="title">Tools and Applications</strong>
+                    <ul>
+                      <li class="has-drop-down active"><span>yEd</span>
+                        <ul>
+                          <li><a href="http://yed.yworks.com/support/qa">Forum</a></li>
+                          <li><a href="http://yed.yworks.com/support/manual/index.html">Manual</a></li>
+                          <li><a href="/products/yed/videos">Videos</a></li>
+                        </ul>
+                      </li>
+                      <li class="has-drop-down active"><span>Diagrams for Confluence</span>
+                        <ul>
+                          <li><a href="/products/diagrams-for-confluence/helpresources">Support request</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="has-drop-down"><a href="/downloads" class="has-drop-down-a">Downloads</a>
+                <div class="dropdown">
+                  <div class="file-block"><strong class="title">yFiles</strong>
+                    <ul>
+                      <li class="has-drop-down active"><span>Diagramming in the browser</span>
+                        <ul>
+                          <li><a href="/downloads#yFilesHTML">yFiles for HTML</a></li>
+                          <li><a href="/downloads#yFilesFLEX">yFiles FLEX</a></li>
+                          <li><a href="/downloads#yFilesAJAX">yFiles AJAX</a></li>
+                          <li><a href="/downloads#yFilesSL">yFiles for Silverlight</a></li>
+                        </ul>
+                      </li>
+                      <li class="has-drop-down active"><span>Diagramming on the .NET platform</span>
+                        <ul>
+                          <li><a href="/downloads#yFilesNET">yFiles.NET</a></li>
+                          <li><a href="/downloads#yFilesWPF">yFiles WPF</a></li>
+                          <li><a href="/downloads#yFilesSL">yFiles for Silverlight</a></li>
+                        </ul>
+                      </li>
+                      <li class="has-drop-down active"><span>Cross-platform diagramming</span>
+                        <ul>
+                          <li><a href="/downloads#yFiles">yFiles for Java</a></li>
+                          <li><a href="/downloads#yFilesJavaFX">yFiles for JavaFX</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li class="has-drop-down active"><span>yFiles for Java extension packages</span>
+                        <ul>
+                          <li><a href="/downloads#ySVG">ySVG</a></li>
+                          <li><a href="/downloads#yExport">yExport</a></li>
+                          <li><a href="/downloads#yBPMN">yBPMN</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="file-block tool"><strong class="title">Tools and Applications</strong>
+                    <ul>
+                      <li><a href="/downloads#yEd">yEd</a></li>
+                      <li><a href="/downloads#DiagramsForConfluence">Diagrams for Confluence</a></li>
+                      <li><a href="/downloads#yGuard">yGuard</a></li>
+                      <li><a href="/downloads#yDoc">UML Doclet</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li><a href="/news">News</a></li>
+              <li class="has-drop-down"><a href="/company" class="has-drop-down-a">Company</a>
+                <!-- dropdown-->
+                <div class="dropdown">
+                  <div class="file-block">
+                    <ul>
+                      <li><a href="/company">About yWorks</a></li>
+                      <li><a href="/company/partners">Partners</a></li>
+                      <li><a href="/company/references">References</a></li>
+                      <li><a href="/company/jobs">Jobs</a></li>
+                      <li class="has-drop-down active"><a href="/company/legal">Legal</a>
+                        <ul>
+                          <li><a href="/company/legal/terms-of-use">Terms of use</a></li>
+                          <li><a href="/company/legal/privacy">Privacy policy</a></li>
+                          <li><a href="/company/legal/business-terms-and-conditions">Sales terms</a></li>
+                          <li><a href="/company/legal/imprint">Imprint</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="/contact">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+    <div class="content">
+      <div class="wrap">
+        <div class="wrap">
+          <div class="csc-default">
+            <div class="head_slider">
+              <div class="csc-default">
+                <div class="slick-carousel">
+                  <div class="csc-default"><a href="/products/yed/download"><img id="I414" data-lazy="/assets/images/products/yed/slides/yed.37ce5f19.png" width="1280" style="max-height:398px;"></a>
+                    <div class="slick-text-container"><strong>yEd Graph Editor: High-quality diagrams made easy</strong><span><a href="/products/yed/download">
+                          <p class="bodytext"><b>DOWNLOAD NOW</b></p></a></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-teaser">
+            <div class="csc-default">
+              <div class="content-2spaltig-oborder row">
+                <div id="graph-editor" class="col-sm-6 left">
+                  <div class="csc-default">
+                    <header class="csc-header csc-header-n1">
+                      <h1 class="csc-firstHeader">yEd Graph Editor</h1>
+                    </header>
+                    <p class="bodytext">yEd is a powerful desktop application that can be used to quickly and effectively generate high-quality diagrams.<br>Create diagrams manually, or import your external data for analysis. Our automatic layout algorithms arrange even large data sets with just the press of a button.<br><br>yEd is freely available and runs on all major platforms: Windows, Unix/Linux, and Mac OS X.<br><b></b></p>
+                  </div>
+                  <div class="csc-default csc-space-before-15">
+                    <div class="csc-textpic csc-textpic-intext-left">
+                      <div class="csc-textpic-imagewrap">
+                        <figure class="csc-textpic-image csc-textpic-last"><a href="/products/yed/download#ReleaseNotes" title="yEd releae notes"><img src="/assets/images/version-info.a5d3e9b4.png" width="41" height="41" alt=""></a></figure>
+                      </div>
+                      <div class="csc-textpic-text">
+                        <p class="bodytext"><b><a href="/products/yed/download#ReleaseNotes" class="external-link">The latest release is version 3.14.4</a></b></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 right">
+                  <div class="csc-default">
+                    <div class="yed-video">
+                      <div class="youtube-video">
+                        <iframe width="435" height="265" src="//www.youtube-nocookie.com/embed/OmSTwKw7dX4" frameborder="0" allowfullscreen=""></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="csc-default">
+              <div id="keyfeatures" class="content-header-center">
+                <div class="csc-default">
+                  <header class="csc-header csc-header-n1">
+                    <h1 class="csc-firstHeader">Key Features</h1>
+                  </header>
+                </div>
+                <div class="csc-default csc-space-before-30">
+                  <div class="content-4spaltig row">
+                    <div class="col-lg-3 col-xs-6 left-left">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                          <div class="csc-textpic-imagewrap">
+                            <div class="csc-textpic-center-outer">
+                              <div class="csc-textpic-center-inner">
+                                <figure class="csc-textpic-image csc-textpic-last"><img src="/assets/images/products/yed/slides/slide_import1.0e2a10fc.png" width="549" height="208" alt="Import with yEd">
+                                  <figcaption class="csc-textpic-caption">Import</figcaption>
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <p class="bodytext"><b>Import</b> your own data from an Excel&reg; spreadsheet (.xls) or XML</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-6 left-right">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                          <div class="csc-textpic-imagewrap">
+                            <div class="csc-textpic-center-outer">
+                              <div class="csc-textpic-center-inner">
+                                <figure class="csc-textpic-image csc-textpic-last"><img src="/assets/images/products/yed/slides/slide_interactive-interface.04f01073.png" width="550" height="210" alt="Created Diagramms with yEd">
+                                  <figcaption class="csc-textpic-caption">Create</figcaption>
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <p class="bodytext"><b>Create diagrams with ease</b> via an intuitive user interface.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-6 right-left">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                          <div class="csc-textpic-imagewrap">
+                            <div class="csc-textpic-center-outer">
+                              <div class="csc-textpic-center-inner">
+                                <figure class="csc-textpic-image csc-textpic-last"><img src="/assets/images/products/yed/slides/slide_arrange.5b9a9354.png" width="549" height="208" alt="Arrange Diagramms with yEd">
+                                  <figcaption class="csc-textpic-caption">Arrange</figcaption>
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <p class="bodytext"><b>Automatically arrange</b> your diagram elements.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-6 right-right">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                          <div class="csc-textpic-imagewrap">
+                            <div class="csc-textpic-center-outer">
+                              <div class="csc-textpic-center-inner">
+                                <figure class="csc-textpic-image csc-textpic-last"><img src="/assets/images/products/yed/slides/slide_export1.bcc89a51.png" width="549" height="208" alt="Export with Diagramms with yEd">
+                                  <figcaption class="csc-textpic-caption">Export</figcaption>
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <p class="bodytext"><b>Export</b> bitmap and vector graphics as PNG, JPG, SVG, PDF, SWF</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="csc-frame csc-frame-frame1">
+                  <header class="csc-header csc-header-n3">
+                    <h5><a href="/products/yed/applicationfeatures">LEARN MORE</a></h5>
+                  </header>
+                </div>
+              </div>
+            </div>
+            <div id="supported-diagrams" class="csc-default">
+              <div class="content-header-center">
+                <div class="csc-default">
+                  <header class="csc-header csc-header-n1">
+                    <h1 class="csc-firstHeader">Supported Diagrams</h1>
+                  </header>
+                  <p class="bodytext">yEd supports a wide variety of diagram types. In addition to the illustrated types, yEd also supports organization charts, mind maps, swimlane diagrams, Entity Relationship diagrams, and many more.</p>
+                </div>
+                <div class="csc-default">
+                  <div class="content-6spaltig row">
+                    <div class="col-lg-2 col-sm-4 left-left">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                          <div class="csc-textpic-imagewrap">
+                            <div class="csc-textpic-center-outer">
+                              <div class="csc-textpic-center-inner">
+                                <figure class="csc-textpic-image csc-textpic-last"><img src="/assets/images/products/yed/thumb_bpmn1.9d32f947.png" width="160" height="100" alt="BPMN Diagrams" title="BPMN Diagrams"></figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <p class="bodytext"><b>BPMN Diagrams</b></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 left-middle">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                          <div class="csc-textpic-imagewrap">
+                            <div class="csc-textpic-center-outer">
+                              <div class="csc-textpic-center-inner">
+                                <figure class="csc-textpic-image csc-textpic-last"><img src="/assets/images/products/yed/thumb_flowcharts1.bd6fef40.png" width="160" height="100" alt="Flowcharts" title="Flowcharts"></figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <p class="bodytext"><b>Flowcharts</b></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 right-left">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                          <div class="csc-textpic-imagewrap">
+                            <div class="csc-textpic-center-outer">
+                              <div class="csc-textpic-center-inner">
+                                <figure class="csc-textpic-image csc-textpic-last"><img src="/assets/images/products/yed/thumb_familytree.36cc6fc8.png" width="160" height="100" alt="Family Trees" title="Family Trees"></figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <p class="bodytext"><b>Family Trees<br></b></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 right-left">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                          <div class="csc-textpic-imagewrap">
+                            <div class="csc-textpic-center-outer">
+                              <div class="csc-textpic-center-inner">
+                                <figure class="csc-textpic-image csc-textpic-last"><img src="/assets/images/products/yed/thumb_semantic_network.79362db2.png" width="160" height="100" alt="Semantic Networks" title="Semantic Networks"></figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <p class="bodytext"><b>Semantic Networks</b></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 right-middle">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                          <div class="csc-textpic-imagewrap">
+                            <div class="csc-textpic-center-outer">
+                              <div class="csc-textpic-center-inner">
+                                <figure class="csc-textpic-image csc-textpic-last"><img src="/assets/images/products/yed/thumb_social.13e4a24c.png" width="160" height="100" alt="Social Networks" title="Social Networks"></figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <p class="bodytext"><b>Social Networks</b></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 right-right">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                          <div class="csc-textpic-imagewrap">
+                            <div class="csc-textpic-center-outer">
+                              <div class="csc-textpic-center-inner">
+                                <figure class="csc-textpic-image csc-textpic-last"><img src="/assets/images/products/yed/thumb_uml.2ba843fe.png" width="160" height="100" alt="UML Class Diagrams" title="UML Class Diagrams"></figure>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <p class="bodytext"><b>UML Class Diagrams</b></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="gallery" class="csc-frame csc-frame-frame1 csc-space-before-50">
+                  <header class="csc-header csc-header-n3">
+                    <h5><a href="/products/yed/gallery">yEd GALLERY</a></h5>
+                  </header>
+                </div>
+              </div>
+            </div>
+            <div class="csc-default">
+              <div class="content-1spaltig-header-center darkblue">
+                <div id="support-resources" class="csc-default">
+                  <header class="csc-header csc-header-n1">
+                    <h1 class="csc-firstHeader">Support Resources</h1>
+                  </header>
+                </div>
+                <div class="csc-default">
+                  <div class="content-3spaltig row">
+                    <div class="col-xs-4">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-intext-left-nowrap csc-textpic-intext-left-nowrap-58">
+                          <div class="csc-textpic-imagewrap">
+                            <figure class="csc-textpic-image csc-textpic-last"><a href="http://yed.yworks.com/support/manual/index.html" target="_blank"><img src="/assets/images/products/yed/manual.3b892d41.png" width="48" height="35" alt=""></a></figure>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <header class="csc-header csc-header-n1">
+                              <h5 class="csc-firstHeader"><a href="http://yed.yworks.com/support/manual/index.html" target="_blank">yEd MANUAL</a></h5>
+                            </header>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-intext-left-nowrap csc-textpic-intext-left-nowrap-46 csc-textpic-equalheight">
+                          <div class="csc-textpic-imagewrap">
+                            <figure class="csc-textpic-image csc-textpic-last"><a href="http://yed.yworks.com/support/qa" target="_blank"><img src="/assets/images/products/yed/forum.6794ec2f.png" width="36" height="35" alt=""></a></figure>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <header class="csc-header csc-header-n1">
+                              <h5 class="csc-firstHeader"><a href="http://yed.yworks.com/support/qa" target="_blank">Q&A FORUM</a></h5>
+                            </header>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="csc-default">
+                        <div class="csc-textpic csc-textpic-intext-left-nowrap csc-textpic-intext-left-nowrap-46">
+                          <div class="csc-textpic-imagewrap">
+                            <figure class="csc-textpic-image csc-textpic-last"><a href="/products/yed/videos"><img src="/assets/images/products/yed/video.57fa1b7b.png" width="36" height="35" alt=""></a></figure>
+                          </div>
+                          <div class="csc-textpic-text">
+                            <header class="csc-header csc-header-n1">
+                              <h5 class="csc-firstHeader"><a href="/products/yed/videos">VIDEO TUTORIAL</a></h5>
+                            </header>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="csc-default">
+              <div class="content-bg-blue">
+                <div id="feedback" class="csc-default">
+                  <header class="csc-header csc-header-n1">
+                    <h1 class="csc-firstHeader">Feedback</h1>
+                  </header>
+                  <p class="bodytext">We hope that you find yEd to be an invaluable tool and as much fun to make diagrams as we do. <b>Spread the word</b> and recommend it to your friends on Facebook, Twitter, and Google+!<br>We also invite you to blog about yEd or submit a nice review on <a href="http://alternativeto.net/software/yed" target="_blank" class="external-link-new-window">alternativeto.net</a>.</p>
+                </div>
+                <div id="testimonials" class="csc-default">
+                  <div class="slider-1spaltig">
+                    <div class="csc-default">
+                      <div class="slick-carousel">
+                        <div class="csc-default">
+                          <div class="slick-text-container"><span>
+                              <p class="bodytext"><b>"</b>As a software developer, I used to use Graphviz for my code comprehension needs. While its compact format has its advantages, it was just too much effort to input data - particularly relationships. I wanted to be able to create relationships by dragging my mouse from one node to another. This is exactly how yEd works.<br>You don't have to sacrifice the longevity of plain-text that Graphviz files offer. yEd works entirely on the XML-based GraphML format. You get the same benefits of cross-platform support and exporting to SVG, PNG, PDF etc. as with Graphviz. But yEd  is that it is written in Java yet has a 100% native look and feel (so on Mac, you can zoom in and out with 2 finger scrolling).<br>The best feature for me is its ability to group nodes and collapse/expand them. This makes it possible to capture much bigger graphs in a single file than with Graphviz (in which I had to mess with numerical properties). Layouts also give you the ability to comprehend your data in different ways, and when you change layout it animates the transition which makes the experience fun.<br>yEd, which is free, is probably better than any non-free software out there, and I've never had to upgrade it since I first heard of it, and haven't noticed any bugs. I'm really grateful for yWorks for this product and hope it stays around as long as I live.<b>"</b><br>Sridhar Sarnobat (Software Engineer at E-Touch Systems in Fremont, CA)</p></span></div>
+                        </div>
+                        <div class="csc-default">
+                          <div class="slick-text-container"><span>
+                              <p class="bodytext"><b>"</b>Hi,<br>I work in a French company in embedded programming and electronics as technical director.<br>I just want to thank and congratulate you for yEd software.<br>It's a great software and it helps me and my team very often. <b>"</b><br>Jean-Michel Leyrie<br>Directeur Technique Opérationnel<br>Viveris Technologies - Ile de France</p></span></div>
+                        </div>
+                        <div class="csc-default">
+                          <div class="slick-text-container"><span>
+                              <p class="bodytext"><b>"</b>Hello!<br>Thought I'd give you guys a shout out!<br>I love your product, yEd! I'm a pretty new user, I've only been using it for a few days, but I already<br>think it's 1000s of times better than Visio. The auto-layouts are frustration-free. BIG thumbs up! Keep up the good work! <b>"</b><br>Sean R.<br>Programmer/Analyst II at an educational institution in the US</p></span></div>
+                        </div>
+                        <div class="csc-default">
+                          <div class="slick-text-container"><span>
+                              <p class="bodytext"><b>"</b>Hallo yWorks-Team,<br>ich LIEBE yEd und kann es nicht fassen, dass sie es umsonst rausgeben. Das ist so toll und gut von ihnen. Vielen Dank.<br>Ich habe mit ihrem Tätigkeitsfeld sonst gar nichts zu tun, sondern habe lediglich eine Software gesucht, die aus Daten ein komplexes Organigramm für unsere Ehrenamtsstruktur machen kann. Ich hab viel geschaut und kein auch nur halbwegs erschwingliches Programm gefunden, was aus verbreiteten Daten (Excel) so zeichnen kann. OmniGraffle kann aus Daten zeichnen - aber die muss man selbst dort eingeben. Auf jeden Fall kann man sie nicht aus Excel importieren.<br>Also vielen Dank dafür, beste Grüße nach Tübingen! <b>"</b><br>Christian Nowatzky<br>Pastor<br>Berlinprojekt – Kirche für die Stadt</p></span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="csc-default">
+                  <div class="csc-textpic csc-textpic-intext-right">
+                    <div class="csc-textpic-imagewrap">
+                      <figure class="csc-textpic-image csc-textpic-last"><a href="/products/yed/contribution" title="Contribute to the yEd gallery"><img src="/assets/images/button-left.8f1aaf02.png" width="41" height="40" alt="yEd gallery"></a></figure>
+                    </div>
+                    <div class="csc-textpic-text">
+                      <p class="bodytext"><a href="/products/yed/contribution">Contribute to the yEd gallery</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="row footer_menu">
+        <div class="footer-logo"><img src="/assets/images/footer/logo.dc3cd1d6.svg" alt="yWorks Logo"></div>
+        <div class="footer_products col-xs-2">
+          <h3>PRODUCTS</h3>
+          <ul class="footer_navi">
+            <li><a href="/products/yfiles-for-java-2.x">yFiles for Java</a></li>
+            <li><a href="/products/yfiles-for-javafx">yFiles for JavaFX</a></li>
+            <li><a href="/products/yfiles-net">yFiles.NET</a></li>
+            <li><a href="/products/yfiles-wpf">yFiles WPF</a></li>
+            <li><a href="/products/yfiles-for-html">yFiles for HTML</a></li>
+            <li><a href="/products/yed">yEd</a></li>
+          </ul>
+        </div>
+        <div class="footer_yworks col-xs-2">
+          <h3>yWORKS</h3>
+          <ul class="footer_navi">
+            <li><a href="/services">Services</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/downloads">Downloads</a></li>
+            <li><a href="/company/references">References</a></li>
+            <li><a href="/company/jobs">Jobs</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer_contact col-xs-2">
+          <h3>CONTACT</h3>
+          <ul class="footer_navi">
+            <li>yWorks GmbH</li>
+            <li>Vor dem Kreuzberg 28</li>
+            <li>72070 T&uuml;bingen</li>
+            <li>Germany</li>
+            <li>Phone: +49 7071 9709050</li>
+            <li>Email: <a href="mailto:contact@yworks.com">contact(at)yworks.com</a></li>
+          </ul>
+        </div>
+        <div class="footer_following col-lg-2 col-lg-offset-2">
+          <h3>FOLLOW US</h3>
+          <div class="social"><a href="/newsfeed" target="_blank"><img src="/assets/images/footer/rss.ec07ce16.png" width="30" height="31" alt=""></a><a href="https://twitter.com/yworks" target="_blank"><img src="/assets/images/footer/twitter.2bcc1bbe.png" width="30" height="31" alt=""></a><a href="http://www.youtube.com/user/yWorksTube" target="_blank"><img src="/assets/images/footer/youtube.e9afc38c.png" width="30" height="30" alt=""></a></div>
+          <div class="footer_rights">
+            <div class="copyright">
+              <h4>COPYRIGHT &copy; 2015 yWorks</h4>
+            </div>
+            <ul class="footer_navi follow_navi">
+              <li><a href="/company/legal/imprint">Imprint</a></li>
+              <li><a href="/company/legal/terms-of-use">Terms of Use</a></li>
+              <li><a href="/company/legal/privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      var gaProperty = 'UA-312499-1';
+      // Disable tracking if the opt-out cookie exists.
+      var disableStr = 'ga-disable-' + gaProperty;
+      if (document.cookie.indexOf(disableStr + '=true') > -1) {
+        window[disableStr] = true;
+      }
+      // Opt-out function
+      function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+      }
+    </script>
+    <script src="/scripts/lazy.3d9b0e9d.js"></script>
+    <script type="text/javascript">
+      if (/www\.yworks\.(com|de)/.test(location.href)) {
+         (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                       (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+         ga('create', 'UA-312499-1', 'auto');
+         ga('set', 'anonymizeIp', true);
+         ga('send', 'pageview');
+      }
+    </script>
+  </body>
+</html>

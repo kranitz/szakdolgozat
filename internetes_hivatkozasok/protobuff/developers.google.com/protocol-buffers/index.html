@@ -1,0 +1,422 @@
+
+
+
+
+
+
+<!DOCTYPE html><html lang="en" class="devsite"><head><script>var a=window.devsite||{};window.devsite=a;a.readyCallbacks=[];window.devsite.readyCallbacks=a.readyCallbacks;a.ready=function(c){a.readyCallbacks.push(c)};window.devsite.ready=a.ready;a.timing={};window.devsite=a;window.devsite.timing=a.timing;a.timing.timers=[];a.timing.tick=function(c,b,g){for(var d=0;d<a.timing.timers.length;d++)a.timing.timers[d].tick(c,b,g)};window.devsite.timing.tick=a.timing.tick;a.timing.report=function(c){a.setTimeout(function(){for(var b=0;b<a.timing.timers.length;b++)window.jstiming.report(a.timing.timers[b],c)},500)};
+a.timing.init=function(c){a.timing.timers.push(window.jstiming.load);if(c){var b=new window.jstiming.Timer;b.name=c;a.timing.timers.push(b)}document.addEventListener&&window.addEventListener&&(document.addEventListener("DOMContentLoaded",a.timing.handleDomContentLoaded,!1),window.addEventListener("load",a.timing.handleLoad,!1))};a.timing.handleDomContentLoaded=function(){a.timing.tick("ol");document.removeEventListener("DOMContentLoaded",a.timing.handleDomContentLoaded,!1)};
+a.timing.handleLoad=function(){window.removeEventListener("load",a.timing.handleLoad,!1);var c=document.querySelector("#devsite-request-elapsed");c&&(c=parseInt(c.getAttribute("data-request-elapsed"),10))&&(a.timing.tick("_st_start",null,1),a.timing.tick("st","_st_start",1+c));a.timing.tick("prt");a.timing.report()};(function(){function c(b){this.t={};this.tick=function(b,c,d){var e=void 0!=d?d:(new Date).getTime();this.t[b]=[e,c];if(void 0==d)try{window.console.timeStamp("CSI/"+b)}catch(f){}};this.tick("start",null,b)}var b;window.performance&&(b=window.performance.timing);var g=b?new c(b.responseStart):new c;window.jstiming={Timer:c,load:g};if(b){var d=b.navigationStart,f=b.responseStart;0<d&&f>=d&&(window.jstiming.srt=f-d)}if(b){var e=window.jstiming.load;0<d&&f>=d&&(e.tick("_wtsrt",void 0,d),e.tick("wtsrt_",
+"_wtsrt",f),e.tick("tbsd_","wtsrt_"))}try{b=null,window.chrome&&window.chrome.csi&&(b=Math.floor(window.chrome.csi().pageT),e&&0<d&&(e.tick("_tbnd",void 0,window.chrome.csi().startE),e.tick("tbnd_","_tbnd",d))),null==b&&window.gtbExternal&&(b=window.gtbExternal.pageT()),null==b&&window.external&&(b=window.external.pageT,e&&0<d&&(e.tick("_tbnd",void 0,window.external.startE),e.tick("tbnd_","_tbnd",d))),b&&(window.jstiming.pt=b)}catch(h){}})();
+devsite.timing.init('DocPage');</script><link href="index.html" rel="canonical"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://plus.google.com/+GoogleDevelopers/" rel="publisher"><link rel="alternate"
+              href="https://developers.google.com/protocol-buffers/?hl=en"
+              hreflang="en"><meta name="xsrf_token" content="HE7jOEgDTU2kP7Xn29EfTj3Me14cHHeRM_Uv63d-5nY6MTQ0OTYxMTU4MDE3OTM2MA" /><link href="../../fonts.googleapis.com/css%3Ffamily=Roboto:300,400,400italic,500,500italic,700,700italic%257CRoboto+Mono:400,700%257CMaterial+Icons.css"
+            rel="stylesheet"><link rel="stylesheet"
+            href="../_static/9a621efce7/css/devsite-cyan.css"><link rel="shortcut icon"
+            href="../../www.gstatic.com/images/icons/material/product/2x/developers_32dp.png"><link rel="apple-touch-icon"
+            href="https://www.gstatic.com/images/icons/material/product/2x/developers_64dp.png"><link rel="search"
+            type="application/opensearchdescription+xml"
+            title="Google Developers"
+            href="https://developers.google.com/s/opensearch.xml"><script src="../../ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>
+      var ___gcfg = ___gcfg || {};
+      ___gcfg.lang = 'en';
+      </script><style></style><script>devsite.timing.tick('cl');</script><meta property="og:site_name" content="Google Developers"><meta property="og:type" content="website"><meta property="og:url" content="https://developers.google.com/protocol-buffers/"><meta property="og:locale" content="en"><script>
+    var ___gcfg = ___gcfg || {};
+    ___gcfg.lang = 'en';
+  </script><title>Protocol Buffers  &nbsp;|&nbsp; Google Developers</title><meta property="og:title" content="Protocol Buffers &nbsp;|&nbsp; Google Developers"><meta name="description" content="Protocol buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data."><meta property="og:description" content="Protocol buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data."></head><body class="
+  devsite-landing-page
+  
+
+                 "
+          id="top_of_page"><script>
+        var dataLayer = [{"language": {"requested": "en", "served": "en"}, "projectName": "Protocol Buffers", "signedIn": "False", "internalUser": "False"}];
+      
+      </script><div class="devsite-wrapper"><header class="devsite-top-section
+               
+               "><div class="devsite-top-logo-row-wrapper-wrapper"><div class="devsite-top-logo-row-wrapper"><div class="devsite-top-logo-row devsite-full-site-width"><a class="devsite-logo gc-analytics-event" href="https://developers.google.com/"
+           data-category="Site-Wide Custom Events" data-label="Site logo"><img src="../_static/9a621efce7/images/redesign-14/devsite-logo-white-icon-new.svg"
+               alt="Google Developers icon" class="devsite-logo-icon"><img src="../_static/9a621efce7/images/redesign-14/devsite-logo-white-wordmark-new.svg"
+               alt="Google Developers" class="devsite-logo-wordmark"></a><div class="devsite-search-wrapper devsite-history-enabled"><form class="devsite-search-form" action="https://developers.google.com/s/results/" method="GET" id="top-search"><div id="searchbox" class="devsite-searchbox"><input placeholder='Search'
+                     type="text"
+                     class="devsite-search-field devsite-search-query"
+                     name="q"
+                     value=""
+                     autocomplete="off"><div class="devsite-search-image material-icons"></div></div><input type="hidden"
+                   name="p"
+                   id="search_project"
+                   value="/protocol-buffers"
+                   data-project-name="Protocol Buffers"
+                   data-project-path="/protocol-buffers"
+                   data-query-match=""><input type="hidden" id="suggest-category-label-2" value="Pages in Protocol Buffers" /><input type="hidden" id="suggest-category-label-3" value="Reference in Protocol Buffers" /><input type="hidden" id="suggest-category-label-1" value="Products" /><input type="hidden" id="suggest-all-results-label" value="See all results for" /></form></div><a href="https://www.google.com/accounts/ServiceLogin?passive=true&continue=https%3A%2F%2Fdevelopers.google.com%2Fprotocol-buffers%2F&service=ahsid"
+           class="devsite-user-signin devsite-top-button button gc-analytics-event"
+           data-category="Site-Wide Custom Events" data-label="Sign in button">
+          
+          Sign in
+        </a><button type="button" class="devsite-search-button button-flat material-icons"></button></div></div></div><div class="devsite-collapsible-section"><div class="devsite-header-background devsite-full-site-width"
+         ><div class="devsite-site-nav-row devsite-full-site-width"><nav class="devsite-site-nav devsite-nav"><ul class="devsite-site-nav-list"><li class="devsite-breadcrumb-wrapper
+                
+                       devsite-breadcrumb-parent
+                "><a href="https://developers.google.com/products/"
+                 class="devsite-breadcrumb gc-analytics-event"
+                 data-category="Site-Wide Custom Events"
+                 data-label="Breadcrumb: parent" data-value="1">
+                Products
+              </a></li><li class="devsite-breadcrumb-wrapper
+                
+                       devsite-breadcrumb-project
+                "><div class="devsite-breadcrumb-guillemet material-icons"></div><a href="index.html"
+                 class="devsite-breadcrumb gc-analytics-event"
+                 data-category="Site-Wide Custom Events"
+                 data-label="Breadcrumb: project" data-value="2">
+                Protocol Buffers
+              </a></li></ul></nav></div><div class="devsite-product-id-row devsite-full-site-width"><div class="devsite-product-id-row-links-container"><h1 class="devsite-product-name">
+    
+      Protocol Buffers
+    
+    </h1></div><div class="devsite-product-description-row">
+      
+        Protocol buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.
+      
+      </div></div><div class="devsite-doc-set-nav-row devsite-full-site-width"><nav class="devsite-doc-set-nav devsite-nav"><ul class="devsite-doc-set-nav-tab-list"><li class="devsite-doc-set-nav-tab-container"><a href="index.html" class="devsite-doc-set-nav-active
+                                       devsite-doc-set-nav-tab gc-analytics-event"
+           data-category="Site-Wide Custom Events" data-label="Tab: Home">
+          Home
+        </a></li><li class="devsite-doc-set-nav-tab-container"><a href="https://developers.google.com/protocol-buffers/docs/overview" class="
+                                       devsite-doc-set-nav-tab gc-analytics-event"
+           data-category="Site-Wide Custom Events" data-label="Tab: Guides">
+          Guides
+        </a></li><li class="devsite-doc-set-nav-tab-container"><a href="https://developers.google.com/protocol-buffers/docs/reference/overview" class="
+                                       devsite-doc-set-nav-tab gc-analytics-event"
+           data-category="Site-Wide Custom Events" data-label="Tab: Reference">
+          Reference
+        </a></li><li class="devsite-doc-set-nav-tab-container"><a href="https://developers.google.com/protocol-buffers/docs/faq" class="
+                                       devsite-doc-set-nav-tab gc-analytics-event"
+           data-category="Site-Wide Custom Events" data-label="Tab: Support">
+          Support
+        </a></li></ul></nav></div></div></div></header><script>
+  if (window.jQuery) {
+    $(document).ready(function() {
+      if (window.devsite && window.devsite.search) {
+        
+        window.devsite.search.init('en', false, null)
+      }
+    });
+  }
+</script><div class="kd-butterbar"><span><span class="message"></span><a href="index.html#" class="kd-butterbar-dismiss">Hide</a></span></div><div id="gc-wrapper"itemscope itemtype="http://schema.org/Article"><input class="google-analytics-id-json" type="hidden" value="{&quot;dimensions&quot;: {&quot;dimension6&quot;: &quot;en&quot;, &quot;dimension7&quot;: &quot;plus&quot;, &quot;dimension4&quot;: &quot;Protocol Buffers&quot;, &quot;dimension5&quot;: &quot;en&quot;, &quot;dimension3&quot;: false, &quot;dimension1&quot;: &quot;Signed out&quot;}, &quot;gaid&quot;: &quot;UA-24532603-1&quot;}"><input class="google-analytics-id-json" type="hidden" value="{&quot;dimensions&quot;: {&quot;dimension6&quot;: &quot;en&quot;, &quot;dimension4&quot;: &quot;Protocol Buffers&quot;, &quot;dimension5&quot;: &quot;en&quot;, &quot;dimension3&quot;: false, &quot;dimension1&quot;: &quot;Signed out&quot;}, &quot;gaid&quot;: &quot;UA-49880327-1&quot;}">
+
+        
+          <div class="devsite-article-mask"></div>
+          <div class="devsite-site-mask"></div>
+          
+          <div class="devsite-main-content clearfix">
+
+          
+          
+
+          
+  
+  
+    
+    
+
+    
+
+      <article class="devsite-article">
+        <div class="devsite-article-inner">
+  
+          
+  <section class="devsite-landing-row
+                      devsite-landing-row-3-up
+                      "><div class="devsite-landing-row-item
+  "><div class="devsite-landing-row-item-code
+                "><pre class = "prettyprint">
+message Person {
+  required string name = 1;
+  required int32 id = 2;
+  optional string email = 3;
+}
+
+
+
+</pre></div><div class="devsite-landing-row-item-description
+                "><h3 id="what-are-protocol-buffers">What are protocol buffers?</h3>
+      
+    
+
+    
+      Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler. You define how you want your data to be structured once, then you can use special generated source code to easily write and read your structured data to and from a variety of data streams and using a variety of languages.
+    
+
+    
+      <div class="devsite-landing-row-item-buttons"><a
+        
+           href="https://developers.google.com/protocol-buffers/docs/overview"
+        
+        
+           class="button button-white"
+        
+        >
+          Learn More
+        </a></div></div></div><div class="devsite-landing-row-item
+  "><div class="devsite-landing-row-item-code
+                "><pre class = "prettyprint">
+Person john = Person.newBuilder()
+    .setId(1234)
+    .setName("John Doe")
+    .setEmail("jdoe@example.com")
+    .build();
+output = new FileOutputStream(args[0]);
+john.writeTo(output);</pre></div><div class="devsite-landing-row-item-description
+                "><h3 id="pick-your-favourite-language">Pick your favourite language</h3>
+      
+    
+
+    
+      Protocol buffers currently supports generated code in Java, Python, and C++. With our new proto3 language version, you can also work with Go, JavaNano, Ruby, and C#, with more languages to come.
+    
+
+    
+      <div class="devsite-landing-row-item-buttons"><a
+        
+           href="https://developers.google.com/protocol-buffers/docs/cpptutorial"
+        
+        
+           class="button button-white"
+        
+        >
+          C++
+        </a><a
+        
+           href="https://developers.google.com/protocol-buffers/docs/javatutorial"
+        
+        
+           class="button button-white"
+        
+        >
+          Java
+        </a><a
+        
+           href="https://developers.google.com/protocol-buffers/docs/pythontutorial"
+        
+        
+           class="button button-white"
+        
+        >
+          Python
+        </a></div></div></div><div class="devsite-landing-row-item
+  "><div class="devsite-landing-row-item-code
+                "><pre class = "prettyprint">
+Person john;
+fstream input(argv[1],
+    ios::in | ios::binary);
+john.ParseFromIstream(&input);
+id = john.id();
+name = john.name();
+email = john.email();
+
+</pre></div><div class="devsite-landing-row-item-description
+                "><h3 id="how-do-i-start">How do I start?</h3><ol><li><a href="https://github.com/google/protobuf">Download</a> and install the protocol buffer compiler.</li><li>Read the <a href="https://developers.google.com/protocol-buffers/docs/overview">overview</a>.</li><li>Try the <a href="https://developers.google.com/protocol-buffers/docs/tutorials">tutorial</a> for your chosen language.</li></ol></div></div></section>
+
+  
+        
+<div class="devsite-content-footer">
+  
+  
+  
+    <p>Except as otherwise noted, the content of this page is licensed under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see our <a href="https://developers.google.com/site-policies">Site Policies</a>.</p>
+  
+
+  
+    
+    <p class="devsite-content-footer-date" itemprop="datePublished"
+       content="2015-11-16T22:38:19.302980">
+      
+      Last updated November 16, 2015.
+    </p>
+  
+
+</div>
+
+        </div>
+      </article>
+  
+
+          </div>
+        
+
+<footer class="devsite-footer"><nav class="devsite-full-site-width"><ul class="devsite-footer-row"><li class="devsite-footer-promo devsite-footer-flex"><a href="https://developers.google.com/protocol-buffers/docs/downloads" class="devsite-footer-promo-title gc-analytics-event"
+              data-category="Site-Wide Custom Events" data-label="Content Page Footer Promo"><div class="devsite-footer-promo-icon material-icons">file_download</div>
+            
+            
+              Downloads 
+            
+          </a><div class="devsite-footer-promo-description">Protocol buffers downloads and instructions</div></li><li class="devsite-footer-promo devsite-footer-flex"><a href="https://github.com/google/protobuf/releases" class="devsite-footer-promo-title gc-analytics-event"
+              data-category="Site-Wide Custom Events" data-label="Content Page Footer Promo"><img class="devsite-footer-promo-icon" src="../site-assets/logo-github.svg">
+            
+            
+              GitHub 
+            
+          </a><div class="devsite-footer-promo-description">The latest protocol buffers code and releases</div></li></ul></nav></footer><footer class="devsite-site-footer"><nav class="devsite-site-footer-nav devsite-nav devsite-full-site-width"><ul class="devsite-site-footer-column-list"><li class="devsite-site-footer-column"><ul class="devsite-site-footer-list"><li class="devsite-site-footer-item"><h3>Connect</h3></li><li class="devsite-site-footer-item"><a href="https://googledevelopers.blogspot.com/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Blog Link">Blog</a></li><li class="devsite-site-footer-item"><a href="https://www.facebook.com/pages/Google-Developers/967415219957038" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Facebook Link">Facebook</a></li><li class="devsite-site-footer-item"><a href="https://plus.google.com/+GoogleDevelopers/posts" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer G+ Link">Google+</a></li><li class="devsite-site-footer-item"><a href="https://medium.com/google-developers" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Medium Link">Medium</a></li><li class="devsite-site-footer-item"><a href="https://twitter.com/googledevs" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Twitter Link">Twitter</a></li><li class="devsite-site-footer-item"><a href="https://www.youtube.com/user/GoogleDevelopers" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer YouTube Link">YouTube</a></li></ul></li><li class="devsite-site-footer-column"><ul class="devsite-site-footer-list"><li class="devsite-site-footer-item"><h3>Programs</h3></li><li class="devsite-site-footer-item"><a href="https://www.womentechmakers.com/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Women Techmakers">Women Techmakers</a></li><li class="devsite-site-footer-item"><a href="https://developers.google.com/groups/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Groups">Google Developer Groups</a></li><li class="devsite-site-footer-item"><a href="https://developers.google.com/experts/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Experts">Google Developer Experts</a></li><li class="devsite-site-footer-item"><a href="https://developers.google.com/startups/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Startups">Startup Launchpad</a></li></ul></li><li class="devsite-site-footer-column"><ul class="devsite-site-footer-list"><li class="devsite-site-footer-item"><h3>Developer Consoles</h3></li><li class="devsite-site-footer-item"><a href="https://console.developers.google.com/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Google Developers Console">Google Developers Console</a></li><li class="devsite-site-footer-item"><a href="https://play.google.com/apps/publish/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Play Developers Console">Google Play Console</a></li><li class="devsite-site-footer-item"><a href="https://cast.google.com/publish/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Cast SDK Developer Console">Cast SDK Console</a></li><li class="devsite-site-footer-item"><a href="https://chrome.google.com/webstore/developer/dashboard" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Chrome Web Store Developer Dashboard">Chrome Web Store Dashboard</a></li></ul></li><li class="devsite-site-footer-column"><ul class="devsite-site-footer-list"><li class="devsite-site-footer-item"><h3>Explore</h3></li><li class="devsite-site-footer-item"><a href="https://developers.google.com/android/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android">Android</a></li><li class="devsite-site-footer-item"><a href="https://developers.google.com/ios/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer iOS">iOS</a></li><li class="devsite-site-footer-item"><a href="https://developers.google.com/web/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Web">Web</a></li><li class="devsite-site-footer-item"><a href="https://developers.google.com/games/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Games">Games</a></li><li class="devsite-site-footer-item"><a href="https://developers.google.com/products/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Products">All Products</a></li><li class="devsite-site-footer-item"><a href="https://www.google.com/about/careers/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer more careers">Careers</a></li></ul></li></ul></nav></footer><footer class="devsite-utility-footer"><nav class="devsite-utility-footer-nav devsite-nav devsite-full-site-width"><span class="devsite-utility-footer-links"><a href="https://developers.google.com/site-terms/">Terms</a>
+      &nbsp; | &nbsp;
+      
+      <a href="https://www.google.com/intl/en/privacy/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Privacy Link">Privacy</a></span><form class="devsite-utility-footer-language" id="setlang" action="https://developers.google.com/i18n/setlang/" method="post"><input type="hidden" name="xsrf_token" value="HE7jOEgDTU2kP7Xn29EfTj3Me14cHHeRM_Uv63d-5nY6MTQ0OTYxMTU4MDE3OTM2MA" /><input type="hidden" name="next" value="/protocol-buffers/" /><select id="footer_language" name="language"><option value="ar"
+              >
+            العربيّة
+          </option><option value="bg"
+              >
+            български
+          </option><option value="ca"
+              >
+            català
+          </option><option value="zh-cn"
+              >
+            简体中文
+          </option><option value="zh-tw"
+              >
+            繁體中文
+          </option><option value="hr"
+              >
+            Hrvatski
+          </option><option value="cs"
+              >
+            česky
+          </option><option value="da"
+              >
+            dansk
+          </option><option value="nl"
+              >
+            Nederlands
+          </option><option value="en"
+               selected="selected" >
+            English
+          </option><option value="fa"
+              >
+            فارسی
+          </option><option value="fi"
+              >
+            suomi
+          </option><option value="fr"
+              >
+            français
+          </option><option value="de"
+              >
+            Deutsch
+          </option><option value="el"
+              >
+            Ελληνικά
+          </option><option value="he"
+              >
+            עברית
+          </option><option value="hi"
+              >
+            Hindi
+          </option><option value="hu"
+              >
+            Magyar
+          </option><option value="id"
+              >
+            Bahasa Indonesia
+          </option><option value="it"
+              >
+            italiano
+          </option><option value="ja"
+              >
+            日本語
+          </option><option value="ko"
+              >
+            한국어
+          </option><option value="lv"
+              >
+            latviešu
+          </option><option value="lt"
+              >
+            Lietuviškai
+          </option><option value="nb"
+              >
+            norsk (bokmål)
+          </option><option value="nn"
+              >
+            norsk (nynorsk)
+          </option><option value="pl"
+              >
+            polski
+          </option><option value="pt-br"
+              >
+            Português Brasileiro
+          </option><option value="pt"
+              >
+            Português
+          </option><option value="ro"
+              >
+            Română
+          </option><option value="ru"
+              >
+            Русский
+          </option><option value="sr"
+              >
+            српски
+          </option><option value="sk"
+              >
+            slovenský
+          </option><option value="sl"
+              >
+            Slovenščina
+          </option><option value="es"
+              >
+            español
+          </option><option value="es-419"
+              >
+            Español (América Latina)
+          </option><option value="sv"
+              >
+            svenska
+          </option><option value="th"
+              >
+            ภาษาไทย
+          </option><option value="tr"
+              >
+            Türkçe
+          </option><option value="uk"
+              >
+            Українська
+          </option><option value="vi"
+              >
+            Tiếng Việt
+          </option></select></form></nav></footer></div><script async="" defer="" src="../../www.gstatic.com/feedback/api.js"></script><script id="jqueryui" src="../_static/9a621efce7/js/jquery_ui-bundle.js"></script><script src="../_static2/9a621efce7/jsi18n/index.html"></script><script src="../_static/9a621efce7/js/script_foot_closure.js"></script><script src="../_static/9a621efce7/js/script_foot.js"></script><script>
+        devsite.timing.tick('jl');
+        (function($) {
+          devsite.devsite.Init($, 'devsite',
+              '[]', '',
+              'en', true,
+              '9a621efce7', '',
+              true,
+              {"098dafe57affddc137df300142652cfd": false, "6749dcb526ce9bde6993550c7d928d24": true, "993b1906435224595bd618f6f331ee45": true}, '/protocol-buffers',
+              'https://developers.google.com/');
+        })(jQuery);
+
+        
+        devsite.localInit = function() {
+          
+        };
+      </script><script>
+      $('#setlang select').each(function() {
+        if (navigator.userAgent.match(/msie/i)) {
+          $(this).change(function() {
+            $('#setlang').submit();
+          });
+        } else {
+          $(this).kdSelect({'change': function() {
+            $('#setlang').submit();
+          }});
+        }
+      });
+      </script><script>
+        /* <![CDATA[ */
+        var google_conversion_id = 992540712;
+        var google_conversion_language = "en";
+        var google_conversion_format = "3";
+        var google_conversion_color = "ffffff";
+        var google_conversion_label = "qio2CKCPwQMQqPCj2QM";
+        var google_conversion_value = 0;
+        /* ]]> */
+      </script><script src="../../www.googleadservices.com/pagead/conversion.js"></script><noscript><img height="1" width="1" src="../../www.googleadservices.com/pagead/conversion/992540712/index.html%3Flabel=qio2CKCPwQMQqPCj2QM&amp;guid=ON&amp;script=0"></noscript><script async="" defer="" src="../../survey.g.doubleclick.net/async_survey%3Fsite=aclknqcuyds7o"></script></div><!-- END DIV.WRAPPER --></body><span id="devsite-request-elapsed" data-request-elapsed="88.9499187469"></span></html>

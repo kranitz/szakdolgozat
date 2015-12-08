@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage">
+    <head>
+        <title>Contextual Security Intelligence™</title>
+<meta charset="utf-8" />
+<meta name="description" content="Balabit's Contextual Security Intelligence™ suite protects organizations in real-time from threats posed by the misuse of high risk and privileged accounts." />
+<meta name="distribution" content="local" />
+<meta name="keywords" content="" />
+<meta name="copyright" content="All rights reserved" />
+<meta name="generator" content="Eplos CMS 3.0" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://www.balabit.com" />
+<meta itemprop="name" content="Contextual Security Intelligence™" />
+<meta itemprop="description" content="Balabit's Contextual Security Intelligence™ suite protects organizations in real-time from threats posed by the misuse of high risk and privileged accounts." />
+<meta property="og:title" content="Contextual Security Intelligence™" />
+<meta property="og:image" content="/pictures/video-222x150.jpg" />
+<meta name="google-site-verification" content="WJOPoR0cTao8sy6v-V8DyNdyZub6JvqVQtovivlD99A" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="publisher" href="https://plus.google.com/b/101716890711803057611/101716890711803057611/" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="stylesheet" href="/css/styles.min.css?20151014">
+<base href="/" />
+
+    </head>
+    <body>
+        <header>
+            <nav class="top">
+                <section>
+    <div class="region-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="nav nav-tabs menu-dropdown-hover">
+                        <li class="hidden-xs">
+                            <a href="https://my.balabit.com">MyBalaBit</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://my.balabit.com/partnersonly">Partnersonly</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://my.balabit.com/training">Training</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://support.balabit.com" title="">BOSS</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://blogs.balabit.com" title="">Blogs</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://career.balabit.com/en" title="">Career</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="https://www.balabit.com/" title="">Balabit.com</a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="/company/contacts" title="">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <span>Languages</span>
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="menu-dropdown">
+                                <li class="active">
+                                    <a href="/" class="active" lang="en"><span class="icon-lang icon-en"></span> English</a>
+                                </li>
+                                <li>
+                                    <a href="/hu" lang="en"><span class="icon-lang icon-hu"></span> Magyar</a>
+                                </li>
+                                <li>
+                                    <a href="/de" lang="en"><span class="icon-lang icon-de"></span> Deutsch</a>
+                                </li>
+                                <li>
+                                    <a href="/fr" lang="en"><span class="icon-lang icon-fr"></span> Français</a>
+                                </li>
+                                <li class="last">
+                                    <a href="/ru" lang="en"><span class="icon-lang icon-ru"></span> Русский</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="pull-right">
+                            <a id="search-link" href="javascript:void(0)" class="box-toggle" data-box-toggle="#search-box"><span class="icon-search"></span>&nbsp;Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="search-box">
+                <form action="/en/search" method="post" id="search-block-form" accept-charset="UTF-8">
+                    <div class="col-sm-12">
+                        <div class="input-group v-margin-md">
+                            <input class="form-control" type="text" name="query" maxlength="128"
+                            title="Enter the terms you wish to search for."
+                            />
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary btn-cta search-button" name="op" type="submit">
+                                <span class="icon-search"></span>
+                                Search
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+            </nav>
+            <nav class="mainmenu">
+                <div class="main-menu">
+    <div class="container">
+        <a href="/" id="balabit-logo"></a>
+        <button type="button" class="navbar-toggle pull-right collapsed v-margin-md" data-toggle-sibling="ul.nav-main-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        
+        <ul class="nav-main-menu nav-tabs pull-right menu-dropdown-hover">
+            <li>
+					<a href="javascript:void(0)" title="" class="nolink">
+						Products  <span class="caret caret-lg"></span>
+					</a>
+					<section class="submenu-text">
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content col-xs-12">
+            <tbody>
+                <tr>
+                    
+                    <td class="col-md-8 col-md-12">
+                        <div class="v-margin-sm col-sm-4">
+                            
+                            <a class="col-sm-12" href="/network-security/blindspotter">
+                                <h4 class="title">Blindspotter</h4>
+                                <p>Real-time user behavior analytics for the identification of internal & external attackers</p>
+                            </a>
+                            <div class="col-sm-6">
+                                <ul class="gap-md general">
+                                    <li>
+                                        <a href="/network-security/blindspotter">Overview</a>
+                                    </li>
+                                    <li>
+                                        <a href="/network-security/blindspotter/features">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="/network-security/blindspotter/how-it-works">How it works?</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="gap-md general">
+                                    <li>
+                                        <a href="/network-security/blindspotter/use-cases">Use cases</a>
+                                    </li>
+                                    <li>
+                                        <a href="/network-security/blindspotter/pricing">More info</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="v-margin-sm col-sm-4">
+                            
+                            <a class="col-sm-12" href="/network-security/scb">
+                                <h4 class="title">Shell Control Box</h4>
+                                <p>Privileged User Monitoring</p>
+                            </a>
+                            <div class="col-sm-6">
+                                <ul class="gap-md general">
+                                    <li>
+                                        <a href="/network-security/scb">Overview</a>
+                                    </li>
+                                    <li>
+                                        <a href="/network-security/scb/features">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="/network-security/scb/pricing">Pricing</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="gap-md general">
+                                    <li>
+                                        <a href="/network-security/scb/webinar-request">Webinar</a>
+                                    </li>
+                                    <li>
+                                        <a href="/network-security/scb/support">Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="/network-security/scb/support/documentation">Documentation</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="v-margin-sm col-sm-4">
+                            
+                            <a class="col-sm-12" href="/network-security/syslog-ng">
+                                <h4 class="title">syslog-ng</h4>
+                                <p>The Foundation of Log Management</p>
+                            </a>
+                            <div class="col-sm-12">
+                                
+                                <ul class="gap-md general">
+                                    <li>
+                                        <a href="https://syslog-ng.org/" title="syslog-ng Open Source Edition">syslog-ng Open Source Edition</a>
+                                    </li>
+                                    <li>
+                                        <a href="/network-security/syslog-ng/central-syslog-server" title="syslog-ng Premium Edition">syslog-ng Premium Edition</a>
+                                    </li>
+                                    <li>
+                                        <a href="/network-security/syslog-ng/log-server-appliance" title="syslog-ng Store Box">syslog-ng Store Box</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+            <li>
+					<a href="javascript:void(0)" title="Our great solutions and more" class="nolink">
+						Solutions  <span class="caret caret-lg"></span>
+					</a>
+					<section class="submenu-text">
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                    <td class="col-md-8">
+                        <div class="row">
+                            <div class="v-margin-sm col-sm-7">
+                                <div class="col-sm-12">
+                                    <p>
+                                        
+                                        BalaBit provides unique solutions to IT Security and Operations challenges for a variety of Industries. See how BalaBit Log Management and Privileged User Monitoring technologies can solve these challenges.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="v-margin-sm col-sm-5">
+                                <div class="col-sm-12">
+                                    
+                                    <ul class="gap-md general">
+                                        <li>
+                                            <a href="/solutions/business">Business Solutions</a>
+                                        </li>
+                                        <li>
+                                            <a href="/solutions/industries">Industries</a>
+                                        </li>
+                                        <li>
+                                            <a href="/solutions/case-studies">Case Studies</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </td>
+                        <td class="col-md-4 menu-item-lead" data-onclick-href="/downloads/white-papers">
+                            
+                            <div class="v-padding-sm">
+                                
+                                <a href="/downloads/white-papers">
+                                        <h4 class="title">                                    
+                                        Premium White Papers
+                                        </h4>
+                                </a>
+                                <p>
+                                    <img src="/pictures/pam_0_1-226x99.jpg" alt="Premium White Papers">
+                                </p>
+                                <p class="v-margin-md">Browse and download our latest guides.</p>
+                                <div class="text-right">
+                                    <a href="/downloads/white-papers" class="more-submenu">
+                                        Read more &raquo;
+                                    </a>
+                                </div>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+            <li>
+					<a href="javascript:void(0)" title="Do you need our support?" class="nolink">
+						Support  <span class="caret caret-lg"></span>
+					</a>
+					<section>
+    
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                    <td class="col-md-4 menu-item-lead">
+                        
+                        <div class="col-md-12">
+                            <div class="v-padding-sm" data-onclick-href="/lp/ecsi-training-camp">
+                                <a href="/lp/ecsi-training-camp">
+                                    <h4 class="title">
+                                    Become an CSI officer
+                                    </h4>
+                                </a>
+                                <p>
+                                    <img src="/pictures/ecsi-banner_0-226x99-226x99.jpg" alt="Become an CSI officer">
+                                </p>
+                                <p class="v-margin-md">Sign up for the basic training</p>
+                                <div class="text-right">
+                                    <a href="/lp/ecsi-training-camp" class="more-submenu">
+                                    Read more
+                                    &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-8">
+                         
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/support/documentation">
+                                                <h4 class="title">Documentation</h4>
+                                            <p>Find the answers for your questions in our comprehensive documentation.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/support/packages">
+                                                <h4 class="title">Support Packages</h4>
+                                            <p>Choose the service package that best fits your needs.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="https://my.balabit.com/training">
+                                                <h4 class="title">Training Courses</h4>
+                                            <p>Participate in technical training courses and complete the available e-learning courses.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/professional-services">
+                                                <h4 class="title">Professional Services</h4>
+                                            <p>Learn more about the integration and educational services.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+            <li>
+					<a href="javascript:void(0)" title="How to become our partner?" class="nolink">
+						Partners  <span class="caret caret-lg"></span>
+					</a>
+					<section>
+    
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                    <td class="col-md-4 menu-item-lead">
+                        
+                        <div class="col-md-12">
+                            <div class="v-padding-sm" data-onclick-href="/partnership/program">
+                                <a href="/partnership/program">
+                                    <h4 class="title">
+                                    Become a Partner
+                                    </h4>
+                                </a>
+                                <p>
+                                    <img src="/pictures/offer-226x88-226x88.jpg" alt="Become a Partner">
+                                </p>
+                                <p class="v-margin-md">Learn more about the benefits of BalaBit's Partner Program.</p>
+                                <div class="text-right">
+                                    <a href="/partnership/program" class="more-submenu">
+                                    Read more
+                                    &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-8">
+                         
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/partnership/commercial">
+                                                <h4 class="title">Find a Partner</h4>
+                                            <p>Find our reseller partners in your region.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/partnership/technology">
+                                                <h4 class="title">Technology Partners</h4>
+                                            <p>Learn more about our technology partners.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="https://my.balabit.com/partnersonly">
+                                                <h4 class="title">Partnersonly</h4>
+                                            <p>Login to access our supporting materials.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/partnership/program">
+                                                <h4 class="title">Become a Partner</h4>
+                                            <p>Learn more about the benefits of BalaBit's Partner Program.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+            <li>
+					<a href="javascript:void(0)" title="" class="nolink">
+						About  <span class="caret caret-lg"></span>
+					</a>
+					<section>
+    
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                    <td class="col-md-4 menu-item-lead">
+                        
+                        <div class="col-md-12">
+                            <div class="v-padding-sm" data-onclick-href="https://www.youtube.com/watch?v=CTteU6PVwsA">
+                                <a href="https://www.youtube.com/watch?v=CTteU6PVwsA">
+                                    <h4 class="title">
+                                    Who we are
+                                    </h4>
+                                </a>
+                                <p>
+                                    <img src="/pictures/who-226x99-226x99.jpg" alt="Who we are">
+                                </p>
+                                <p class="v-margin-md">Watch our introductory video!</p>
+                                <div class="text-right">
+                                    <a href="https://www.youtube.com/watch?v=CTteU6PVwsA" class="more-submenu">
+                                    Read more
+                                    &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-8">
+                         
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/company/references">
+                                                <h4 class="title">References</h4>
+                                            <p>Companies, that solved real security issues with BalaBit products.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/news/press">
+                                                <h4 class="title">Press Room</h4>
+                                            <p>News and comment on latest trends and hot topics.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="https://career.balabit.com/en">
+                                                <h4 class="title">Career</h4>
+                                            <p>Check out our current vacancies and apply.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/company/contacts">
+                                                <h4 class="title">Contact Us</h4>
+                                            <p>In case of any questions, do not hesitate to contact us.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+            <li>
+					<a href="javascript:void(0)" title="" class="nolink">
+						Resources  <span class="caret caret-lg"></span>
+					</a>
+					<section>
+    
+    <div class="menu-dropdown">
+        <table class="menu-dropdown-container v-padding-sm inverse-content">
+            <tbody>
+                <tr>
+                    <td class="col-md-4 menu-item-lead">
+                        
+                        <div class="col-md-12">
+                            <div class="v-padding-sm" data-onclick-href="/downloads/white-papers">
+                                <a href="/downloads/white-papers">
+                                    <h4 class="title">
+                                    Premium White Papers
+                                    </h4>
+                                </a>
+                                <p>
+                                    <img src="/pictures/pam_0_1-226x99.jpg" alt="Premium White Papers">
+                                </p>
+                                <p class="v-margin-md">Browse and download our latest guides.</p>
+                                <div class="text-right">
+                                    <a href="/downloads/white-papers" class="more-submenu">
+                                    Read more
+                                    &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-8">
+                         
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/downloads/evaluation">
+                                                <h4 class="title">Evaluation Versions</h4>
+                                            <p>Get hands-on experience. Try and evaluate BalaBit solutions for free.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/downloads/upgrades">
+                                                <h4 class="title">Upgrades</h4>
+                                            <p>Download the newest releases.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                        <div class="row">
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="/support/community/products">
+                                                <h4 class="title">Free Software</h4>
+                                            <p>BalaBit also participates in open source and free software projects. Browse the packages here.</p>
+                                        </a>
+                                </div>
+                                <div class="v-margin-sm col-sm-6">
+                                        <a class="col-sm-12" href="https://my.balabit.com/downloads">
+                                                <h4 class="title">All Files</h4>
+                                            <p>Use the file explorer to find the necessary installation package.</p>
+                                        </a>
+                                </div>
+
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+            </li>
+
+        </ul>
+    </div>
+</div>            </nav>
+        </header>
+        <div class="container">
+            
+<section>
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="carousel1" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel1" data-slide-to="1" class="active">
+                    </li>
+                    <li data-target="#carousel1" data-slide-to="2">
+                    </li>
+                    <li data-target="#carousel1" data-slide-to="3">
+                    </li>
+
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                        <div class="item active" data-onclick-href="/contextual-security-intelligence-suite">
+                            <img class="img-responsive" src="/pictures/security-and-business-in-context-1140x404.jpg" alt=""/>
+                            <div class="carousel-caption">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="captionwell col-xs-5">
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" data-onclick-href="/network-security/scb">
+                            <img class="img-responsive" src="/pictures/0814_splashscreen-08-980x347.png" alt=""/>
+                            <div class="carousel-caption">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="captionwell col-xs-5">
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" data-onclick-href="/network-security/syslog-ng">
+                            <img class="img-responsive" src="/pictures/0814_splashscreen-07-980x347.png" alt=""/>
+                            <div class="carousel-caption">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="captionwell col-xs-5">
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="carousel-control-wrap clearfix">
+                    <a class="left controller" href="#carousel1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right controller" href="#carousel1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="col-md-12 text-center" style="margin-top: 0px; top: 50px;">
+<h2 style="color: #257fc1; margin-top: 0px;"> <strong>Contextual Security Intelligence™ Suite</strong></h2>
+<h4 style="color: #257fc1; font-size: 170%;">for preventing data breaches without constraining business.</h4>
+<h4 style="color: #555555; margin-top: 30px;">The solutions you need to discover, investigate and respond to threats posed by misuse of privileged and high-risk accounts. </h4>
+<h4 style="color: #555555;">Protect your business from insider threats, APTs and Zero-day attacks in real-time.</h4>
+</div>
+<div class="col-md-12 text-center  v-padding-md" style="margin-top: 50px;">
+<div class="col-md-4"><img class="alignleft" style="display: block; margin: auto;" src="/pictures/data-143x144.png" alt="" />
+<h4 style="color: #555555;">CSI.DATA</h4>
+<p>Immediate access to enterprise wide system, user, application, device and other data vital.. Collect, filter, transform, add context, index and store any type of data stream at any volume or velocity to meet the highest security standards.</p>
+</div>
+<div class="col-md-4"><img class="alignleft" style="display: block; margin: auto; padding-top: 26px;" src="/pictures/user-125x118.png" alt="" />
+<h4>CSI.USER</h4>
+<p>State-of-the-art user activity recording that supports real-time interventions, video search and replay, in-depth visual forensics and the latest compliance requirements. Active intervention can stop malicious activities automatically.</p>
+</div>
+<div class="col-md-4"><img class="alignleft" style="display: block; margin: auto; padding-top: 43px;" src="/pictures/risk-149x101.png" alt="" />
+<h4>CSI.RISK</h4>
+<p>Real-time user behavior analytics to actively discover the anomalies that lead to internal &amp; external threats. Access risk based priority lists of suspicious activities and investigate with seamless access to in-depth investigation tools and data. </p>
+</div>
+</div>
+<div class="col-md-12 text-center v-padding-md">
+<div class="col-md-12"><a class="btn btn-primary btn-cta v-margin-md" href="/contextual-security-intelligence-suite/callback">Request an expert call</a> <a class="btn btn-warning btn-cta v-margin-md" href="/contextual-security-intelligence-suite">See all solutions</a></div>
+</div>
+<div class="col-md-12 text-center" style="background: url('/pictures/front-background-1024x362.png'); color: white;">
+<div class="col-md-8 v-padding-lg" style="margin: auto; float: none;">
+<h2><strong>Contextual Security is about people</strong></h2>
+<p style="font-size: 150%;">and you have to face the fact that people, both users and attackers are much too intelligent to be controlled by outdated and static rules.</p>
+<p class="v-padding-md" style="font-size: 150%;">Only continuous and real-time understanding of their behavior can arm you with power and flexibility to stop threats without constraining business.</p>
+<a class="btn btn-warning btn-cta v-margin-md" href="/contextual-security-intelligence-suite">Find out more</a></div>
+</div>
+<div class="col-md-12 v-padding-md">
+<div class="col-md-12 text-center">
+<h2 style="color: #257fc1;"> <strong>Discover More About Our Solutions</strong></h2>
+<h4 style="color: #257fc1; font-size: 170%; margin: auto;">Whether you face immediate security problems, want to understand business and security or learn about our focus on people here are some recommended resources</h4>
+</div>
+</div>
+<div class="col-sm-12 v-padding-md">
+<div class="col-md-3   text-right"><img src="/pictures/iso27000-infograph-library-200x250.png" alt="comply with ISO 27k" /></div>
+<div class="col-md-3">
+<h4><strong><a href="https://pages.balabit.com/rs/855-UZV-853/images/How-Balabit-Helps-to-Comply-with-ISO-27001.pdf" target="blank">How Balabit helps to comply with ISO 27k?</a></strong></h4>
+<h4 style="color: #555555;">Download our awe-inspiring poster-like infograph and stick it on the wall!</h4>
+<br /> <br />
+<h4 style="color: #555555;"><a href="https://pages.balabit.com/rs/855-UZV-853/images/How-Balabit-Helps-to-Comply-with-ISO-27001.pdf" target="blank">Read more &gt;&gt;</a></h4>
+</div>
+<div class="col-md-3 text-right"><img src="/pictures/privileged-monitoring-video-library-200x250.png" alt="monitor your privileged users" /></div>
+<div class="col-md-3">
+<h4><strong><a title="&quot;Read" href="https://www.youtube.com/watch?v=ilfvI_aQMMw" target="blank">Learn how to monitor your privileged users</a></strong></h4>
+<h4 style="color: #555555;">From this short video you can learn how to monitor your privileged users.</h4>
+<br /> <br />
+<h4 style="color: #555555;"><a title="&quot;Read" href="https://www.youtube.com/watch?v=ilfvI_aQMMw" target="blank">Watch it now &gt;&gt;</a></h4>
+</div>
+</div>
+<div class="col-sm-12 v-padding-md">
+<div class="col-md-3   text-right"><img src="/pictures/privileged-monitoring-guide-library-200x250.png" alt="The Essential Guide to Privileged Activity Monitoring" /></div>
+<div class="col-md-3">
+<h4><strong><a href="https://pages.balabit.com/essential-guide-to-privileged-activity-monitoring.html" target="_blank">The Essential Guide to Privileged Activity Monitoring</a></strong></h4>
+<h4 style="color: #555555;">The freedom of users grows with their access level - the higher rights they have in IT systems, the more risk they carry for the company.</h4>
+<br /> <br />
+<h4 style="color: #555555;"><a href="https://pages.balabit.com/essential-guide-to-privileged-activity-monitoring.html" target="_blank">Read more &gt;&gt;</a></h4>
+</div>
+<div class="col-md-3 text-right"><img src="/pictures/log-management-guide-library-200x250.png" alt="Log Management Essentials" /></div>
+<div class="col-md-3">
+<h4><strong><a title="Log Management Essentials" href="https://pages.balabit.com/log-management-essentials.html" target="_blank">Log Management Essentials</a></strong></h4>
+<h4 style="color: #555555;">To ensure that log data on which security and operations teams rely is accessible, organizations need to deploy an enterprise class log management infrastructure.</h4>
+<br /> <br />
+<h4 style="color: #555555;"><a title="Log Management Essentials" href="https://pages.balabit.com/log-management-essentials.html" target="_blank">Read more &gt;&gt;</a></h4>
+</div>
+</div>
+<div class="col-md-12  text-center"><a class="btn btn-primary btn-cta v-margin-md" href="/contextual-security-intelligence-suite/callback">Request an expert call</a> <a class="btn btn-warning btn-cta v-margin-md" href="/downloads/white-papers">Browse the library</a></div>
+
+            
+
+<section>
+    <div class="row tab-quotes v-margin-md">
+        <div class="col-sm-12">
+            <div class="table">
+                <ul class="nav nav-tabs tabs text-center">
+                    <li class="active">
+                        <a href="#tab151" data-toggle="tab"><img src="/pictures/kc-logo_web_01-120x41.png" title="" alt=""/></a>
+                    </li>
+                    <li>
+                        <a href="#tab149" data-toggle="tab"><img src="/pictures/profelis-logo-150324085552-165x41.png" title="" alt=""/></a>
+                    </li>
+                    <li>
+                        <a href="#tab147" data-toggle="tab"><img src="/pictures/ankara-150324085505-42x41.png" title="" alt=""/></a>
+                    </li>
+                    <li>
+                        <a href="#tab145" data-toggle="tab"><img src="/pictures/leekie-150324085401-146x41.png" title="" alt=""/></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="tab-content">
+                <table class="tab-pane fade in active" id="tab151">
+                            <tr>
+                                <td>
+                                    <div class="col-sm-4 quote-head col-xs-6 col-xxs-12">
+                                        <img src="/pictures/martin-kuppinger_web_01-410x326.png" alt="Quote from Martin Kuppinger, Founder and Principal Analyst, KuppingerCole" />
+                                    </div>
+                                    <div class="tab-quote col-sm-8 col-xs-6 col-xxs-12">
+                                        <div class="row">
+                                            <div class="col-sm-1 v-margin-lg hidden-xs">
+                                                <img src="/images/icon-quote.png" alt="Balabit Use Case quote"/>
+                                            </div>
+                                            <div class="col-sm-11 v-margin-lg">
+                                                <blockquote>
+                                                    <div class="row">
+                                                        
+                                                        <i>“Bringing together [user] monitoring and recording is very important to have the context of when did someone do what.”</i>
+                                                    </div>
+                                                    <div class="row">
+                                                        <small class="text-right col-sm-12 margin-top-lg">Martin Kuppinger, Founder and Principal Analyst, KuppingerCole</small>
+                                                    </div>
+                                                    <div class="row">
+                                                        <a class="btn btn-primary btn-cta margin-top-lg" href="https://www.youtube.com/watch?v=xZw7yp3A7NE" title="WATCH THE VIDEO">WATCH THE VIDEO</a>
+                                                    </div>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                    <table class="tab-pane fade" id="tab149">
+                            <tr>
+                                <td>
+                                    <div class="col-sm-4 quote-head col-xs-6 col-xxs-12">
+                                        <img src="/pictures/caglar-ulkuderner-150324085559-318x339.png" alt="Quote from Caglar Ülküderner, Managing Partner, Profelis IT Ltd" />
+                                    </div>
+                                    <div class="tab-quote col-sm-8 col-xs-6 col-xxs-12">
+                                        <div class="row">
+                                            <div class="col-sm-1 v-margin-lg hidden-xs">
+                                                <img src="/images/icon-quote.png" alt="Balabit Use Case quote"/>
+                                            </div>
+                                            <div class="col-sm-11 v-margin-lg">
+                                                <blockquote>
+                                                    <div class="row">
+                                                        
+                                                        <i>“BalaBit's Shell Control Box is a unique solution because it is an activity monitoring appliance that does not need any agent to be installed neither on server, nor on the client side.”</i>
+                                                    </div>
+                                                    <div class="row">
+                                                        <small class="text-right col-sm-12 margin-top-lg">Caglar Ülküderner, Managing Partner, Profelis IT Ltd</small>
+                                                    </div>
+                                                    <div class="row">
+                                                        <a class="btn btn-primary btn-cta margin-top-lg" href="https://www.balabit.com/company/references" title="SEE CASE STUDIES">SEE CASE STUDIES</a>
+                                                    </div>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                    <table class="tab-pane fade" id="tab147">
+                            <tr>
+                                <td>
+                                    <div class="col-sm-4 quote-head col-xs-6 col-xxs-12">
+                                        <img src="/pictures/ref-riza-ayhan-150324085513-407x339.png" alt="Quote from Riza Ayhan, Manager of IT Department, Ankara University" />
+                                    </div>
+                                    <div class="tab-quote col-sm-8 col-xs-6 col-xxs-12">
+                                        <div class="row">
+                                            <div class="col-sm-1 v-margin-lg hidden-xs">
+                                                <img src="/images/icon-quote.png" alt="Balabit Use Case quote"/>
+                                            </div>
+                                            <div class="col-sm-11 v-margin-lg">
+                                                <blockquote>
+                                                    <div class="row">
+                                                        
+                                                        <i>“The suitable price, the ease of use, the strong technical support as well as the smooth operation all convinced us that we made the right decision when we chose SCB.”</i>
+                                                    </div>
+                                                    <div class="row">
+                                                        <small class="text-right col-sm-12 margin-top-lg">Riza Ayhan, Manager of IT Department, Ankara University</small>
+                                                    </div>
+                                                    <div class="row">
+                                                        <a class="btn btn-primary btn-cta margin-top-lg" href="https://www.balabit.com/company/references" title="SEE CASE STUDIES">SEE CASE STUDIES</a>
+                                                    </div>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                    <table class="tab-pane fade" id="tab145">
+                            <tr>
+                                <td>
+                                    <div class="col-sm-4 quote-head col-xs-6 col-xxs-12">
+                                        <img src="/pictures/ref-ngadiman-sentosa-150324085408-348x339.png" alt="Quote from Ngadiman Sentosa, IT Manager, Leekie Enterprises" />
+                                    </div>
+                                    <div class="tab-quote col-sm-8 col-xs-6 col-xxs-12">
+                                        <div class="row">
+                                            <div class="col-sm-1 v-margin-lg hidden-xs">
+                                                <img src="/images/icon-quote.png" alt="Balabit Use Case quote"/>
+                                            </div>
+                                            <div class="col-sm-11 v-margin-lg">
+                                                <blockquote>
+                                                    <div class="row">
+                                                        
+                                                        <i>“We chose BalaBit's Shell Control Box because it provides a complete audit trail solution at a lower TCO (Total Cost of Ownership) and BalaBit also has a highly skilled technical support team.”</i>
+                                                    </div>
+                                                    <div class="row">
+                                                        <small class="text-right col-sm-12 margin-top-lg">Ngadiman Sentosa, IT Manager, Leekie Enterprises</small>
+                                                    </div>
+                                                    <div class="row">
+                                                        <a class="btn btn-primary btn-cta margin-top-lg" href="https://www.balabit.com/company/references" title="SEE CASE STUDIES">SEE CASE STUDIES</a>
+                                                    </div>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+</section>
+
+            <section>
+    <div class="col-md-3 v-margin-md">
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="https://blogs.balabit.com/" target="_blank" class="social-icon"><span class='icon-social icon-social-blog'></span></a>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-xs-12">
+                <a href="https://blogs.balabit.com/" target="_blank">BalaBit blog</a>
+            </h4>
+        </div>
+        <div class="row">
+            <ul class="gap-md col-xs-12">
+                <!--
+                <li>
+                    <small></small>
+                    <br/>
+                    <a href="http://www.youtube.com/watch?v=HkR_HYngvKM" target="_blank">
+                        Home
+                    </a>
+                </li>
+                -->
+                <li class="views-row  views-row-1 views-row-odd views-row-first"><div class="views-field views-field-timestamp"><span class="field-content">08/12/2015 00:28</span></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="https://mag.blogs.balabit.com/2015/12/08/a-short-rant-about-cc-and-profession/">A short rant about Common Criteria and professionalism</a></span></div></li><li class="views-row  views-row-2 views-row-even"><div class="views-field views-field-timestamp"><span class="field-content">03/12/2015 12:16</span></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="https://czanik.blogs.balabit.com/2015/12/03/elasticsearch-and-syslog-ng-fast-and-simple/">Elasticsearch and syslog-ng: fast and simple!</a></span></div></li><li class="views-row  views-row-3 views-row-odd"><div class="views-field views-field-timestamp"><span class="field-content">25/11/2015 14:51</span></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="https://czanik.blogs.balabit.com/2015/11/25/kafka-and-syslog-ng/">Kafka and syslog-ng</a></span></div></li><li class="views-row  views-row-4 views-row-even"><div class="views-field views-field-timestamp"><span class="field-content">24/11/2015 13:13</span></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="https://bazsi.blogs.balabit.com/2015/11/24/the-power-of-scl-integrating-with-loggly/">The power of SCL, integrating with loggly</a></span></div></li><li class="views-row  views-row-5 views-row-odd"><div class="views-field views-field-timestamp"><span class="field-content">20/11/2015 13:31</span></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="https://czanik.blogs.balabit.com/2015/11/20/syslog-ng-on-windows/">syslog-ng on Windows</a></span></div></li><li class="views-row  views-row-6 views-row-even"><div class="views-field views-field-timestamp"><span class="field-content">20/11/2015 11:58</span></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="https://mgabor.blogs.balabit.com/2015/11/20/audit-reporting-in-shell-control-box/">Audit Reporting in Shell Control Box</a></span></div></li><li class="views-row  views-row-7 views-row-odd"><div class="views-field views-field-timestamp"><span class="field-content">19/11/2015 13:56</span></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="https://andrea.blogs.balabit.com/2015/11/19/survey-reveals-69-of-users-would-bypass-security-controls-to-win-business/">Survey Reveals 69% of Users Would Bypass Security Controls to Win Business</a></span></div></li><li class="views-row  views-row-8 views-row-even"><div class="views-field views-field-timestamp"><span class="field-content">17/11/2015 17:42</span></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="https://mag.blogs.balabit.com/2015/11/17/trademark-scams/">Trademark scams</a></span></div></li><li class="views-row  views-row-9 views-row-odd"><div class="views-field views-field-timestamp"><span class="field-content">16/11/2015 13:53</span></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="https://jluby.blogs.balabit.com/2015/11/16/syslog-ng-premium-edition-5f5-released/">syslog-ng Premium Edition 5F5 Released!</a></span></div></li><li class="views-row  views-row-10 views-row-even views-row-last"><div class="views-field views-field-timestamp"><span class="field-content">12/11/2015 16:22</span></div><div class="views-field views-field-title"><span class="field-content"><a target="_blank" href="https://andrea.blogs.balabit.com/2015/11/12/balabit-announces-availability-of-its-contextual-security-intelligence-suite/">Balabit Announces Availability of its Contextual   Security Intelligence™ Suite</a></span></div></li>            </ul>
+        </div>
+    </div>
+</section>
+
+            <section>
+    <div class="col-md-3 v-margin-md">
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="https://twitter.com/balabit" target="_blank" class="social-icon"><span class='icon-social icon-social-twitter'></span></a>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-xs-12">
+                <a target="_blank" href="https://twitter.com/balabit">BalaBit microblog</a>
+            </h4>
+        </div>
+        <div class="row">
+            <ul class="gap-md col-xs-12">
+                <!--
+                <li>
+                    <small></small>
+                    <br/>
+                    <a href="http://www.youtube.com/watch?v=HkR_HYngvKM" target="_blank">
+                        Home
+                    </a>
+                </li>
+                -->
+                <li class="views-row  views-row-1 views-row-odd views-row-first"><div class="views-field views-field-timestamp"><span class="field-content">08/12/2015 15:23</span></div><div class="views-field views-field-text"><span class="field-content"><a target="_blank" rel="nofollow" href="http://twitter.com/Balabit">@Balabit</a>&nbsp;Thoughts on Common Criteria &amp; Professionalism #CleanCode #TDD #EAL7 #EAL4 #TSF #CEM
+https://t.co/aWnubSKH6c https://t.co/KCdchwcDUM<br><a target="_blank" href="http://twitter.com/95754294/status/674247992363347968">Tweet &rarr;</a></span></div></li><li class="views-row  views-row-2 views-row-even"><div class="views-field views-field-timestamp"><span class="field-content">08/12/2015 13:00</span></div><div class="views-field views-field-text"><span class="field-content"><a target="_blank" rel="nofollow" href="http://twitter.com/Balabit">@Balabit</a>&nbsp;RT @ThirdCertainty: 5 steps to nab insiders stealing your company’s data https://t.co/ZdZFmaTyms @balabit<br><a target="_blank" href="http://twitter.com/95754294/status/674211930899378176">Tweet &rarr;</a></span></div></li><li class="views-row  views-row-3 views-row-odd"><div class="views-field views-field-timestamp"><span class="field-content">07/12/2015 16:29</span></div><div class="views-field views-field-text"><span class="field-content"><a target="_blank" rel="nofollow" href="http://twitter.com/Balabit">@Balabit</a>&nbsp;Read at @schneierblog a discussion abt the results of our recent @balabit survey: security vs. business flexibility https://t.co/eU98mHxyGO<br><a target="_blank" href="http://twitter.com/95754294/status/673902219889156097">Tweet &rarr;</a></span></div></li><li class="views-row  views-row-4 views-row-even"><div class="views-field views-field-timestamp"><span class="field-content">07/12/2015 09:14</span></div><div class="views-field views-field-text"><span class="field-content"><a target="_blank" rel="nofollow" href="http://twitter.com/Balabit">@Balabit</a>&nbsp;RT @Info_Sec_Buzz: A predator could walk up to your child and say “Hey Molly, isn’t your birthday coming up?: https://t.co/ajBSwPSfMq @last…<br><a target="_blank" href="http://twitter.com/95754294/status/673792799708422144">Tweet &rarr;</a></span></div></li><li class="views-row  views-row-5 views-row-odd views-row-last"><div class="views-field views-field-timestamp"><span class="field-content">04/12/2015 18:56</span></div><div class="views-field views-field-text"><span class="field-content"><a target="_blank" rel="nofollow" href="http://twitter.com/Balabit">@Balabit</a>&nbsp;RT @PR_techie: Why you should share "2015 Cost Of Cyber Crime Study" with your IT users #infosec https://t.co/cSzoD4dv8u via @BSMInfo #info…<br><a target="_blank" href="http://twitter.com/95754294/status/672851967648075776">Tweet &rarr;</a></span></div></li>            </ul>
+        </div>
+    </div>
+</section>
+
+            <!--                <section class="youtube youtube-
+                    en
+                    ">
+                </section> -->
+<section>
+    <div class="col-md-3 v-margin-md">
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="https://www.youtube.com/user/BalaBitIT" target="_blank"><span class='icon-social icon-social-youtube'></span></a>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-xs-12">
+                
+                <a href="https://www.youtube.com/user/BalaBitIT" target="_blank">BalaBit YouTube channel</a>
+            </h4>
+        </div>
+        <div class="row">
+            <ul class="gap-md col-xs-12">
+                <li>
+                    <small>05/28/2015 - 11:12</small>
+                    <br/>
+                    <a href="http://www.youtube.com/watch?v=uprGwAgzQc4" target="_blank">
+                        Blindspotter - The real-time user behavior analytics solution
+                    </a>
+                </li>
+                <li>
+                    <small>05/15/2014 - 13:01</small>
+                    <br/>
+                    <a href="http://www.youtube.com/watch?v=ilfvI_aQMMw" target="_blank">
+                        Monitor your privileged users with Shell Control Box
+                    </a>
+                </li>
+                <li>
+                    <small>03/20/2014 - 11:07</small>
+                    <br/>
+                    <a href="http://www.youtube.com/watch?v=8p4wTajWb-A" target="_blank">
+                        Real-time prevention of malicious activities
+                    </a>
+                </li>
+                <li>
+                    <small>03/20/2014 - 11:06</small>
+                    <br/>
+                    <a href="http://www.youtube.com/watch?v=he4OIqdFADs" target="_blank">
+                        PCI DSS compliance with syslog-ng Store Box
+                    </a>
+                </li>
+                <li>
+                    <small>03/20/2014 - 11:05</small>
+                    <br/>
+                    <a href="http://www.youtube.com/watch?v=-mlhu9dSpe0" target="_blank">
+                        See how to optimize SIEM with syslog-ng
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="col-md-3 v-margin-md">
+        
+        <a href="https://www.youtube.com/watch?v=HkR_HYngvKM" class="youtube-capture" target="_blank">
+            <img src="/pictures/video-222x150.jpg" width="222" height="150" alt="Balabit YouTube video">
+        </a>
+    </div>
+</section>
+
+        </div>
+        <div class="footer-banner">
+            <section>
+    <div class="footer-banner">
+        <div class="container">
+            <div class="col-sm-3 col-md-2 hidden-xs">
+                <img alt="Webinar on Contextual Security Intelligence" src="/pictures/girl-154x131.png" class="pull-left"/>
+            </div>
+            <div class="col-sm-6 col-md-8">
+                
+                <div class="sticky-foot-text" style="font-size:29px">
+                    <h3>
+                        <span style="font-size:29px">Webinar on Contextual Security Intelligence</span>
+                    </h3>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-2">
+                <a class="btn btn-primary btn-cta" href="https://www.balabit.com/contextual-security-intelligence-webinar" target="blank" title="Webinar on Contextual Security Intelligence">
+                    Register for Free
+                </a>
+            </div>
+        </div>
+    </div>
+</section>        </div>
+        <footer>
+            <section id="sitemap">
+    <div class="sitemap footer">
+        <div class="container">
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                
+                
+                <a href="javascript:void(0)">Products</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/network-security/blindspotter" title="">
+        Blindspotter
+    </a>
+</li>
+
+                    <li>
+    <a href="/network-security/scb" title="">
+        Shell Control Box
+    </a>
+</li>
+
+                    <li>
+    <a href="/network-security/syslog-ng" title="">
+        syslog-ng
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                    
+                    
+                    <a href="javascript:void(0)">Solutions</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/solutions/business" title="">
+        Business Solutions
+    </a>
+</li>
+
+                    <li>
+    <a href="/solutions/industries" title="">
+        Industries
+    </a>
+</li>
+
+                    <li>
+    <a href="/solutions/case-studies" title="">
+        Case Studies
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                    
+                    
+                    <a href="javascript:void(0)">Support</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/support/documentation" title="">
+        Documentation
+    </a>
+</li>
+
+                    <li>
+    <a href="/support/packages" title="">
+        Support Packages
+    </a>
+</li>
+
+                    <li>
+    <a href="https://my.balabit.com/training" target="_blank" title="">
+        Training Courses
+    </a>
+</li>
+
+                    <li>
+    <a href="/professional-services" title="">
+        Professional Services
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                    
+                    
+                    <a href="javascript:void(0)">Partners</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/partnership/commercial" title="">
+        Find a Partner
+    </a>
+</li>
+
+                    <li>
+    <a href="/partnership/technology" title="">
+        Technology Partners
+    </a>
+</li>
+
+                    <li>
+    <a href="https://my.balabit.com/partnersonly" target="_blank" title="">
+        Partnersonly
+    </a>
+</li>
+
+                    <li>
+    <a href="/partnership/program" target="_blank" title="">
+        Become a Partner
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                    
+                    
+                    <a href="javascript:void(0)">About</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/company/references" title="">
+        References
+    </a>
+</li>
+
+                    <li>
+    <a href="https://career.balabit.com/en" target="_blank" title="">
+        Career
+    </a>
+</li>
+
+                    <li>
+    <a href="/company/contacts" title="">
+        Contact Us
+    </a>
+</li>
+
+                    <li>
+    <a href="/company/events" title="">
+        Meet our experts
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <h4>
+                    
+                    
+                    <a href="javascript:void(0)">Resources</a>
+                </h4>
+                <ul class="naked gap-md">
+                    <li>
+    <a href="/downloads/evaluation" title="">
+        Evaluation Versions
+    </a>
+</li>
+
+                    <li>
+    <a href="/downloads/upgrades" title="">
+        Upgrades
+    </a>
+</li>
+
+                    <li>
+    <a href="/support/community/products" title="">
+        Free Software
+    </a>
+</li>
+
+                    <li>
+    <a href="https://my.balabit.com/downloads" target="_blank" title="">
+        All Files
+    </a>
+</li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="social-links">
+    <div class="footer v-padding-md">
+        <div class="container">
+            <div class="col-md-6">
+                <h4 id="ezine">Subscribe to eCSI eZine</h4>
+<form id="mktoForm_1044">
+</form>
+
+            </div>
+            <div class="col-md-6">
+                <a class="pull-right" href="mailto:?subject=Site%20Recommendation&amp;body=Hello,%20%0A%0a%20Visit%20this%20site:%20https://www.balabit.com/lp/ecsi-training-camp-basics">
+                    <span class="icon-social icon-social-email" title="Recommend our site"></span>
+                </a>
+                <a class="pull-right" href="https://twitter.com/balabit">
+                    <span class="icon-social icon-social-twitter" title="Balabit Twitter account"></span>
+                </a>
+                <a class="pull-right" href="https://www.facebook.com/balabit">
+                    <span class="icon-social icon-social-facebook" title="Balbit Facebook page"></span>
+                </a>
+                <a class="pull-right" href="http://www.youtube.com/user/BalaBitIT">
+                    <span class="icon-social icon-social-youtube" title="Balabit YouTube channel"></span>
+                </a>
+                <a class="pull-right" href="http://www.slideshare.net/balabit">
+                    <span class="icon-social icon-social-slideshare" title="Balabit Slideshare"></span>
+                </a>
+                <a class="pull-right" href="https://www.linkedin.com/company/balabit-it-security">
+                    <span class="icon-social icon-social-linkedin" title="BalaBit LinkedIn profile"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="footer-copyright">
+    <div class="footer-copyright v-padding-sm">
+        <div class="container">
+            <div class="col-sm-6">
+                
+                <ul>
+                    <li>
+                        <a href="/privacy-policy" title="">
+                        Privacy policy & cookies
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/trademarks" title="">
+                        Trademarks
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/company/contacts" title="">
+                        Contact Us
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-sm-6 text-right">
+                <p>Copyright 2000-2015 BalaBit IT Security. All rights reserved.</p>
+            </div>
+            <!-- <script type="text/javascript" src="https://www.balabit.com/js/scripts-combined.min.js"></script> -->
+            <script type="text/javascript" src="/js/scripts-combined.min.js"></script>
+            
+                    <!-- General scripts begin -->
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-3350024-1', 'auto', {
+    'cookieDomain': '.balabit.com',
+    'legacyCookieDomain': '.balabit.com',
+    'allowLinker': true,
+    'allowAnchor': true
+});
+ga('require', 'displayfeatures'); // needed for remarketing
+ga('send', 'pageview');
+
+
+ga('create', 'UA-3350024-44', {'name':'rollupProperty','allowLinker': true});
+ga('rollupProperty.require', 'linker'); 
+ga('rollupProperty.linker:autoLink', ['syslog-ng.org', 'balabit.com'],true,true );
+ga('rollupProperty.send', 'pageview');
+</script>
+<!-- Google Analytics, document download measurement -->
+<script type="text/javascript">
+ jQuery(document).ready(function($) {var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i; var baseHref = ''; if (jQuery('base').attr('href') != undefined) baseHref = jQuery('base').attr('href'); jQuery('a').each(function() {var href = jQuery(this).attr('href'); if (href && (href.match(/^htt[p][s]?\:/i)) && (!href.match(document.domain))) {jQuery(this).click(function() {var extLink = href.replace(/^htt[p][s]?\:\/{2}/i, ''); ga('send', 'event', 'External', 'Click', extLink); }); } else if (href && href.match(/^mailto\:/i)) {jQuery(this).click(function() {var mailLink = href.replace(/^mailto\:/i, ''); ga('send', 'event', 'Email', 'Click', mailLink); }); } else if (href && href.match(filetypes)) {jQuery(this).click(function() {var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined; var filePath = href; ga('send', 'event', 'Download', 'Click-' + extension, filePath); }); } }); });
+</script>
+<!--<section>
+<div id="getsat-widget-6049"></div>
+<script type="text/javascript">function gsfnlabel() {jQuery.loadAsync = function(url, callback) {jQuery.ajax({'url': url,'dataType': 'script','cache': true,'success': callback || jQuery.noop});}; function insertScript(){if (typeof GSFN !== "undefined") { GSFN.loadWidget(6049,{"containerId":"getsat-widget-6049"}); }} jQuery.loadAsync( "//loader.engage.gsfn.us/loader.js",insertScript ); } setTimeout("gsfnlabel()",100);</script>
+</section>-->
+<!-- Facebook Remarketing Tag -->
+<script>(function() {var _fbq = window._fbq || (window._fbq = []); if (!_fbq.loaded) {var fbds = document.createElement('script'); fbds.async = true; fbds.src = '//connect.facebook.net/en_US/fbds.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fbds, s); _fbq.loaded = true; } _fbq.push(['addPixelId', '1561720987393521']); })(); window._fbq = window._fbq || []; window._fbq.push(['track', 'PixelInitialized', {}]);</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1561720987393521&amp;ev=PixelInitialized" /></noscript>
+<!-- Google Code for Remarketing Tag -->
+<script type="text/javascript">
+/* <![CDATA[ */
+function initGoogleTrackConversion() {window.google_trackConversion({ google_conversion_id: 991855140, google_custom_params: window.google_tag_params, google_remarketing_only: true});}
+//]]>
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8" async onload="initGoogleTrackConversion()"></script>
+<!--<script type="text/javascript" async src="//www.googleadservices.com/pagead/conversion.js"></script>-->
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/991855140/?value=0&amp;guid=ON&amp;script=0" /></div>
+</noscript>
+<!-- Marketo  tracker -->
+<script type="text/javascript">jQuery(document).ready(function() {jQuery.ajax({url: '//munchkin.marketo.net/munchkin.js', dataType: 'script', cache: true, success: function() {Munchkin.init('855-UZV-853'); } }); setTimeout(function(){jQuery.loadAsync = function(url, callback) {jQuery.ajax({'url': url,'dataType': 'script','cache': true,'success': callback || jQuery.noop} ); }; function insertScript(){setTimeout(function() { MktoForms2.loadForm("//app-lon02.marketo.com", "855-UZV-853", 1044, insertFinished); } ,200); } function insertFinished() {jQuery('.mktoForm button.mktoButton').addClass('btn btn-primary'); } jQuery.loadAsync( "//app-lon02.marketo.com/js/forms2/js/forms2.min.js",insertScript ); },200); });</script>
+<!-- General scripts end -->
+        </div>
+    </div>
+</section>        </footer>
+    </body>
+</html>

@@ -1,0 +1,111 @@
+#tm-notice{color:rgb(243,222,222);}@media (max-width: 600px)  {.figure-image img{margin-left:0px!important;}}a:hover{text-decoration:none;}.item-list{line-height:18px;margin-top:6px;}.record{margin-bottom:15px;}.record p{margin-bottom:3px!important;}.enhLi{font-size:14px;}#FAQbackground{background-color:#fff}}
+
+.col-md-3 {
+	width: 33%;
+}
+
+.link {
+	color: #428bca;
+}
+
+.link:hover; {
+	color: #214665;
+}
+
+/* Accordion on Header */
+
+#masthead .dropdown-menu>li>a{
+	background-color: rgba(255,255,255,.95);
+	color: black;
+}
+
+#masthead .dropdown-menu>li>a:hover{
+	background-color: #82c9ed;
+	color: white;
+}
+
+#accordion_836 li a:hover {color: rgb(162, 219, 255) !important;}
+#highlighted li a:hover {color: rgb(162, 219, 255) !important;}
+
+/* Accordion on Header end */
+
+.weak {
+	font-weight: 300;
+}
+
+/* Buttons on Main Page */
+
+#blueIcon { color:rgba(102, 102, 102, 0.73);}
+
+.section .swatch-white .container a:hover {
+	color:#4c4c4c;
+}
+
+#sponsorButton a:hover {color: orange;}
+
+
+
+/* Lodging color */
+
+.lodging {
+	color:black;
+}
+
+/* Learn Wireshark CSS Front Page */
+
+
+#learn {margin-top: 40px !important;}
+#learn .panel-title {color: #0873A9;}
+.learnList li{line-height: 1.25 !important;}
+#learn h4 {text-decoration: underline;}
+#learn span {font-size: 14px;}
+
+/* EDITS SEPT 2015 */
+
+#enhanceTXT {font-weight: 800; font-size: 25px;}
+#enhanceTXT2 {color: #E74C3C;}
+
+/* Authors CSS */
+
+table.table-greenbar tr:nth-of-type(6n+1),
+table.table-greenbar tr:nth-of-type(6n+2),
+table.table-greenbar tr:nth-of-type(6n+3) {
+  background: 1px solid rgba(228, 255, 199, 0.1) !important;
+}
+
+table.table-greenbar tr td,
+table.table-greenbar tr th {
+  border-width: 0;
+}
+
+table.table-greenbar tr:nth-of-type(6n+1) td,
+table.table-greenbar tr:nth-of-type(6n+1) th {
+  border-top: 1px solid rgba(228, 255, 199, 0.1) !important;
+}
+
+table.table-greenbar tr:nth-of-type(6n+3) td,
+table.table-greenbar tr:nth-of-type(6n+3) th {
+  border-bottom: 1px solid rgba(228, 255, 199, 0.1) !important;
+}
+
+/* Downloads */
+span.dl_arrow {
+  min-width: 1.5em;
+  display: inline-block;
+}
+
+#download p a {color:rgb(99, 229, 253);}
+#download p a:hover {color: #fff;}
+
+
+
+/* NEW FAQ CSS */
+
+.ws-well {background-color: #ffffff !important; margin-top: 17px;}
+.ws-well h1 {margin-top: 20px; margin-bottom:20px;}
+.ws-well-heading-enhancement {background-color: rgba(255, 165, 0, 0.71); padding: 6px; font-weight: 700;}
+.ws-well a {color: #428bca};
+.ws-well p {margin-bottom: 0px !important;}
+.ws-well-heading {padding: 6px; background-color: rgba(189, 189, 189, 0.71);}
+.ws-well-content {padding: 12px;}
+#enhancement {background-color: rgba(245, 240, 232, 0.69) !important;}
